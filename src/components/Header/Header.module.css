@@ -1,11 +1,13 @@
 .main {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
-  height: 90vh;
-  margin-top: 10vh;
+  height: 80vh;
+  max-width: 1000px;
+  margin: 10vh auto;
 }
 
 .img {
@@ -20,14 +22,12 @@
 
 .h1 {
   font-size: 3rem;
+  color: #1e7087;
 }
 .h2 {
   font-size: 1.5rem;
 }
-.span { 
-  color: #1e7087;
 
-}
 .div {
   display: flex;
   gap: 10px;
@@ -35,7 +35,7 @@
 .a {
   font-size: 2rem;
   color: #1e7087;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .a:hover {
   color: #4499b1;

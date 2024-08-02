@@ -2,17 +2,19 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import styles from "./Header.module.css";
+import { useTranslation } from 'react-i18next';
 
 export function Header() {
+  const { t } = useTranslation();
   return (
     <main className={styles.main}>
       <div>
         <img className={styles.img} src="/public/Profil.webp" alt="Picture of Heriberto Santana" />
       </div>
       <div>
-        <p className={styles.p}>Hi, I'm </p>
+        <p className={styles.p}>{t('header.greeting')}</p>
         <h1 className={styles.h1}>Heriberto Santana</h1>
-        <h2 className={styles.h2}><span className={styles.span}>Full-Stack</span> Developer</h2>
+        <h2 className={styles.h2}>{t('header.description')}</h2>
         <div className={styles.div}>
         <a
           className={styles.a}

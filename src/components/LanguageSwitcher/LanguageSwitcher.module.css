@@ -1,0 +1,27 @@
+.select {
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  justify-content: start;
+  width: 4rem;
+  height: 2rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: rgba(141, 141, 141, 0.251);
+  border: 1px solid rgba(141, 141, 141, 0.251);
+  box-shadow: 1px 1px 3px rgba(141, 141, 141, 0.251);
+}
+.select:hover {
+  background-color: rgba(141, 141, 141, 0.817);
+  color: black;
+  scale: 105%;
+}
+.select:focus {
+  outline: none;
+  border-color: rgba(141, 141, 141, 0.7);
+}
+
+.option {
+  background-color: transparent;
+  color: black;
+}

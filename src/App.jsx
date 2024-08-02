@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import {ThemeToggle} from './components/ThemeToggle/ThemeToggle';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles, lightTheme, darkTheme } from './styles/GlobalStyles';
-import { Header } from './components/Header/Header';
+import { Header } from './components/Header';
+import { Projects } from './components/Projects';
+import { Contact } from './components/Contact';
+import { Education } from './components/Education';
+import { NavBar } from './components/NavBar'
 
 const App = () => {
   const [theme, setTheme] = useState('light');
@@ -17,8 +20,22 @@ const App = () => {
   return (
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <GlobalStyles />
-      <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
-      <Header />
+      <div>
+      <NavBar theme={theme} toggleTheme={toggleTheme} />
+      <div id="home">
+        <Header />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
+      <div id="education">
+        <Education />
+      </div>
+      {/* <Footer /> */}
+    </div>
     </ThemeProvider>
   );
 };

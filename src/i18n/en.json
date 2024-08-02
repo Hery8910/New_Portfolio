@@ -1,0 +1,68 @@
+{
+  "header": {
+    "name": "Heriberto Santana",
+    "greeting": "Hi, I'm",
+    "description": "Full-stack developer."
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "projects": {
+    "title": "React Guide",
+    "project1": {
+      "name": "React Guide",
+      "description": "This project is part of the full-stack web development course I participated in. I wanted to compile the knowledge I gained during the course and make it easily and efficiently accessible. The motivation was to create a tool that allows me and other users to access information about React. In this application, you will find component examples with their code, ready to be reused, and relevant information about their use and styling. I hope it is as helpful to you as it has been to me.",
+      "techStack": "React, Node.js",
+      "image": "./public/React_Guide.webp",
+      "info": "Link to ",
+      "github": "https://github.com/Hery8910/React-Guide",
+      "live": "https://project-one.example.com"
+    },
+    "project2": {
+      "name": "Project Two",
+      "description": "A short description of Project Two, highlighting key features and tech stack.",
+      "techStack": "Vue, Express, MySQL",
+      "image": "https://via.placeholder.com/150",
+      "github": "https://github.com/yourusername/project-two",
+      "live": "https://project-two.example.com"
+    },
+    "project3": {
+      "name": "Project Three",
+      "description": "A brief overview of Project Three, explaining its main objectives and technologies used.",
+      "techStack": "Angular, Firebase",
+      "image": "https://via.placeholder.com/150",
+      "github": "https://github.com/yourusername/project-three",
+      "live": "https://project-three.example.com"
+    }
+  },
+  "cta": {
+    "message": "You need help on your team?",
+    "message2": "I can help you!",    
+    "email": "herysantana@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/heriberto-santana-solsona/"
+  },
+  "education": {
+    "title": "Education",
+    "academic": "Your academic background detailing your degrees and institutions attended.",
+    "professional": "Your professional experience highlighting key roles and achievements.",
+    "skills": {
+      "softSkills": "Teamwork, Communication, Problem-solving",
+      "developerSkills": "JavaScript, Python, Java",
+      "technologies": "React, Node.js, Docker",
+      "languages": "English, German, Spanish"
+    }
+  },
+  "recommendations": {
+    "title": "Recommendations",
+    "recommendation1": "Recommendation from Professor A",
+    "recommendation2": "Recommendation from Professor B",
+    "recommendation3": "Recommendation from Manager",
+    "recommendation4": "Recommendation from Mentor"
+  },
+  "footer": {
+    "message": "With ❤️ from Berlin"
+  }
+}

@@ -1,4 +1,5 @@
 .theme-toggle {
+  color: inherit;
     cursor: pointer;
     display: flex;
     justify-content: start;
@@ -10,10 +11,11 @@
     border: 1px solid rgba(141, 141, 141, 0.251);
     box-shadow: 1px 1px 3px rgba(141, 141, 141, 0.251);
   }
- 
+  .theme-toggle:hover {
+    background-color: rgba(141, 141, 141, 0.817);
+    color: black;
+    scale: 105%;
+  }
   .dark-theme .theme-toggle {
     justify-content: end;
-    background-color: rgba(236, 236, 236, 0.685);
-    border: 1px solid rgba(236, 236, 236, 0.685);
-    box-shadow: 1px 1px 3px rgba(236, 236, 236, 0.685);
   }

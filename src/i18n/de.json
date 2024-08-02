@@ -1,0 +1,68 @@
+{
+  "header": {
+    "name": "Heriberto Santana",
+    "greeting": "Hello, mein Name ist",
+    "description": "Full-Stack-Entwickler."
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projekte",
+    "education": "Bildung",
+    "contact": "Kontakt"
+  },
+  "projects": {
+    "title": "React Guide",
+    "project1": {
+      "name": "React Guide",
+      "description": "Dieses Projekt ist Teil des Full-Stack-Webentwicklungskurses, an dem ich teilgenommen habe. Ich wollte das Wissen, das ich im Kurs erworben habe, zusammenstellen und es schnell und effizient zugänglich machen. Die Motivation war, ein Werkzeug zu schaffen, das mir und anderen Nutzern den Zugriff auf Informationen über React ermöglicht. In dieser Anwendung finden Sie Beispielkomponenten mit ihrem Code, die wiederverwendet werden können, sowie relevante Informationen zu ihrer Verwendung und Gestaltung. Ich hoffe, es ist Ihnen genauso hilfreich wie mir.",
+      "techStack": "React, Node.js",
+      "image": "./public/React_Guide.webp",
+      "info": "Link zu ",
+      "github": "https://github.com/Hery8910/React-Guide",
+      "live": "https://projekt-eins.example.com"
+    },
+    "project2": {
+      "name": "Projekt Zwei",
+      "description": "Eine kurze Beschreibung des Projekts Zwei, die die wichtigsten Funktionen und den technischen Stack hervorhebt.",
+      "techStack": "Vue, Express, MySQL",
+      "image": "https://via.placeholder.com/150",
+      "github": "https://github.com/yourusername/projekt-zwei",
+      "live": "https://projekt-zwei.example.com"
+    },
+    "project3": {
+      "name": "Projekt Drei",
+      "description": "Ein kurzer Überblick über Projekt Drei, der seine Hauptziele und die verwendeten Technologien erklärt.",
+      "techStack": "Angular, Firebase",
+      "image": "https://via.placeholder.com/150",
+      "github": "https://github.com/yourusername/projekt-drei",
+      "live": "https://projekt-drei.example.com"
+    }
+  },
+  "cta": {
+    "message": "Sie brauchen Hilfe in Ihrem Team?",
+    "message2": "Ich kann Ihnen helfen!",
+    "email": "herysantana@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/heriberto-santana-solsona/"
+  },
+  "education": {
+    "title": "Bildung",
+    "academic": "Ihr akademischer Hintergrund, der Ihre Abschlüsse und besuchten Institutionen detailliert beschreibt.",
+    "professional": "Ihre Berufserfahrung, die wichtige Rollen und Erfolge hervorhebt.",
+    "skills": {
+      "softSkills": "Teamarbeit, Kommunikation, Problemlösung",
+      "developerSkills": "JavaScript, Python, Java",
+      "technologies": "React, Node.js, Docker",
+      "languages": "Englisch, Deutsch, Spanisch"
+    }
+  },
+  "recommendations": {
+    "title": "Empfehlungen",
+    "recommendation1": "Empfehlung von Professor A",
+    "recommendation2": "Empfehlung von Professor B",
+    "recommendation3": "Empfehlung vom Manager",
+    "recommendation4": "Empfehlung vom Mentor"
+  },
+  "footer": {
+    "message": "Mit ❤️ aus Berlin"
+  }
+}
