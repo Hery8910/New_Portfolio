@@ -9,7 +9,7 @@ export function Header() {
   return (
     <main className={styles.main}>
       <div>
-        <img className={styles.img} src="/public/Profil.webp" alt="Picture of Heriberto Santana" />
+        <img className={styles.img} src="/images/Profil.webp" alt="Picture of Heriberto Santana" />
       </div>
       <div>
         <p className={styles.p}>{t('header.greeting')}</p>
