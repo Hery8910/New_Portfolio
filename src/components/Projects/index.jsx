@@ -28,16 +28,14 @@ export function Projects() {
             <a className={styles.a} href={t("projects.project1.github")}>
               {t("projects.project1.info")}
               {t("projects.project1.name")}
-              <br />
-              <FaGithub />
+              <FaGithub className={styles.icon} />
             </a>
           </li>
           <li className={styles.li}>
             <a className={styles.a} href={t("projects.project1.live")}>
               {t("projects.project1.info")}
               {t("projects.project1.name")}
-              <br />
-              <FaExternalLinkAlt />
+              <FaExternalLinkAlt className={styles.icon} />
             </a>
           </li>
         </ul>

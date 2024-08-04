@@ -40,27 +40,37 @@
   },
   "cta": {
     "message": "You need help on your team?",
-    "message2": "I can help you!",    
+    "message2": "I can help you!",
     "email": "herysantana@gmail.com",
     "linkedin": "https://www.linkedin.com/in/heriberto-santana-solsona/"
   },
   "education": {
-    "title": "Education",
-    "academic": "Your academic background detailing your degrees and institutions attended.",
-    "professional": "Your professional experience highlighting key roles and achievements.",
-    "skills": {
-      "softSkills": "Teamwork, Communication, Problem-solving",
-      "developerSkills": "JavaScript, Python, Java",
-      "technologies": "React, Node.js, Docker",
-      "languages": "English, German, Spanish"
-    }
+    "skills": "Skills",
+    "about": "About me.",
+    "aboutMessage": "In 2023, I decided to face new professional challenges and explore new horizons. During an orientation course at DCI, I discovered the fascinating world of web development, which inspired me to pursue a career as a full-stack web developer. This path has allowed me to be creative again and tackle problems from innovative perspectives. Throughout the course, I have expanded my knowledge of building web applications, gaining a solid understanding of their technical requirements. Additionally, I was selected to be part of the DCI tutoring program, where I had the opportunity to support my classmates in their studies and projects. This experience not only allowed me to collaborate with exceptional people but also to learn from them and enhance my interpersonal skills. For more information about my journey, please see my CV."
   },
   "recommendations": {
-    "title": "Recommendations",
-    "recommendation1": "Recommendation from Professor A",
-    "recommendation2": "Recommendation from Professor B",
-    "recommendation3": "Recommendation from Manager",
-    "recommendation4": "Recommendation from Mentor"
+    "title": "Recommendation",
+    "recommendation1": {
+      "name": "Matteo Sette",
+      "title": "Teacher at DCI",
+      "recommendation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati illum quod vero, eveniet impedit natus ab repellat, officiis mollitia nihil ex totam? Repellendus quo facilis vero ratione doloribus assumenda reiciendis nam accusamus hic, aspernatur doloremque quaerat velit qui, mollitia libero! Rerum beatae eligendi obcaecati nobis, corporis numquam quis ullam ipsam sunt voluptates deserunt deleniti necessitatibus accusantium placeat doloribus. Ducimus perspiciatis libero facilis ab commodi deserunt labore quisquam pariatur, facere praesentium voluptate aut autem itaque, porro voluptatum eligendi excepturi maiores beatae nesciunt quod obcaecati minima magnam culpa suscipit. Velit assumenda numquam rem possimus, asperiores facere minus totam. Iure, voluptatum dicta!"
+    },
+    "recommendation2": {
+      "name": "Paola Pastore",
+      "title": "Teacher at DCI",
+      "recommendation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati illum quod vero, eveniet impedit natus ab repellat, officiis mollitia nihil ex totam? Repellendus quo facilis vero ratione doloribus assumenda reiciendis nam accusamus hic, aspernatur doloremque quaerat velit qui, mollitia libero! Rerum beatae eligendi obcaecati nobis, corporis numquam quis ullam ipsam sunt voluptates deserunt deleniti necessitatibus accusantium placeat doloribus. Ducimus perspiciatis libero facilis ab commodi deserunt labore quisquam pariatur, facere praesentium voluptate aut autem itaque, porro voluptatum eligendi excepturi maiores beatae nesciunt quod obcaecati minima magnam culpa suscipit. Velit assumenda numquam rem possimus, asperiores facere minus totam. Iure, voluptatum dicta!"
+    },
+    "recommendation3":{
+      "name": "Zakaria Hamdan",
+      "title": "Teacher at DCI",
+      "recommendation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati illum quod vero, eveniet impedit natus ab repellat, officiis mollitia nihil ex totam? Repellendus quo facilis vero ratione doloribus assumenda reiciendis nam accusamus hic, aspernatur doloremque quaerat velit qui, mollitia libero! Rerum beatae eligendi obcaecati nobis, corporis numquam quis ullam ipsam sunt voluptates deserunt deleniti necessitatibus accusantium placeat doloribus. Ducimus perspiciatis libero facilis ab commodi deserunt labore quisquam pariatur, facere praesentium voluptate aut autem itaque, porro voluptatum eligendi excepturi maiores beatae nesciunt quod obcaecati minima magnam culpa suscipit. Velit assumenda numquam rem possimus, asperiores facere minus totam. Iure, voluptatum dicta!"
+    },
+    "recommendation4": {
+      "name": "Johanna Heim",
+      "title": "Class Manager at DCI",
+      "recommendation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati illum quod vero, eveniet impedit natus ab repellat, officiis mollitia nihil ex totam? Repellendus quo facilis vero ratione doloribus assumenda reiciendis nam accusamus hic, aspernatur doloremque quaerat velit qui, mollitia libero! Rerum beatae eligendi obcaecati nobis, corporis numquam quis ullam ipsam sunt voluptates deserunt deleniti necessitatibus accusantium placeat doloribus. Ducimus perspiciatis libero facilis ab commodi deserunt labore quisquam pariatur, facere praesentium voluptate aut autem itaque, porro voluptatum eligendi excepturi maiores beatae nesciunt quod obcaecati minima magnam culpa suscipit. Velit assumenda numquam rem possimus, asperiores facere minus totam. Iure, voluptatum dicta!"
+    }
   },
   "footer": {
     "message": "With ❤️ from Berlin"
