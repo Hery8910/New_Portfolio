@@ -3,8 +3,7 @@ import { Link } from "react-scroll";
 import { useTranslation } from "react-i18next";
 import { LanguageSwitcher } from "../LanguageSwitcher";
 import { ThemeToggle } from "../ThemeToggle";
-import { Contact } from "../Contact";
-import styles from './NavBar.module.css'
+import styles from "./NavBar.module.css";
 
 export function NavBar({ theme, toggleTheme }) {
   const { t } = useTranslation();
@@ -17,7 +16,13 @@ export function NavBar({ theme, toggleTheme }) {
       </header>
       <ul className={styles.ul}>
         <li className={styles.li}>
-          <Link to="home" smooth={true} duration={500} className="navbar-link">
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            className="navbar-link"
+            aria-label="Link to home-section"
+          >
             {t("nav.home")}
           </Link>
         </li>
@@ -27,12 +32,19 @@ export function NavBar({ theme, toggleTheme }) {
             smooth={true}
             duration={500}
             className="navbar-link"
+            aria-label="Link to projects-section"
           >
             {t("nav.projects")}
           </Link>
         </li>
         <li className={styles.li}>
-          <Link to="contact" smooth={true} duration={500} className="navbar-link">
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="navbar-link"
+            aria-label="Link to contact-section"
+          >
             {t("nav.contact")}
           </Link>
         </li>
@@ -42,6 +54,7 @@ export function NavBar({ theme, toggleTheme }) {
             smooth={true}
             duration={500}
             className="navbar-link"
+            aria-label="Link to education-section"
           >
             {t("nav.education")}
           </Link>
