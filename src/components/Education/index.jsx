@@ -30,7 +30,6 @@ export function Education() {
         <p className={styles.p}>{t("education.aboutMessage")}</p>
       </main>
       <aside>
-        <h2 className={styles.h2}>{t("education.skills")}</h2>
         <ul className={styles.ul}>
           <li>
             <ImHtmlFive2 />

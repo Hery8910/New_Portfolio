@@ -38,8 +38,6 @@ const App = () => {
         <Education />
       </div>
       <div>
-        <Recommendation name={t('recommendations.recommendation1.name')} title={t('recommendations.recommendation1.title')} recommendation={t('recommendations.recommendation1.recommendation')}/>
-        <Recommendation name={t('recommendations.recommendation2.name')} title={t('recommendations.recommendation2.title')} recommendation={t('recommendations.recommendation2.recommendation')}/>
       </div>
       {/* <Footer /> */}
     </div>

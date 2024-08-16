@@ -21,6 +21,7 @@ export function Header() {
           href="https://github.com/Hery8910"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Link to Github profile"
         >
           <FaGithub />
         </a>
@@ -29,6 +30,7 @@ export function Header() {
           href="https://www.linkedin.com/in/heriberto-santana-solsona-7366342b2/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Link to linkedin profile"
         >
           <FaLinkedin />
         </a>

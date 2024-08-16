@@ -5,7 +5,11 @@ import { BsMoon } from "react-icons/bs";
 
 export function ThemeToggle({ theme, toggleTheme }) {
   return (
-    <button className="theme-toggle" onClick={toggleTheme}>
+    <button
+     className="theme-toggle" 
+     onClick={toggleTheme}
+     aria-label="Theme toggle"
+    >
       {theme === "light" ? <ImSun /> : <BsMoon />}
     </button>
   );
