@@ -5,10 +5,8 @@
   left: 0;
   display: flex;
   justify-content: space-around;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.header {
+.div {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -23,7 +21,7 @@
   cursor: pointer;
   padding: 0.4rem 1rem;
   border-radius: 10px;
-  background-color: rgba(141, 141, 141, 0.251);
+  background-color: transparent;
   border: 1px solid rgba(141, 141, 141, 0.251);
   box-shadow: 1px 1px 3px rgba(141, 141, 141, 0.251);
   transition: all .3s ease-in-out;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { useTranslation } from "react-i18next";
 import { LanguageSwitcher } from "../LanguageSwitcher";
@@ -7,13 +7,13 @@ import styles from "./NavBar.module.css";
 
 export function NavBar({ theme, toggleTheme }) {
   const { t } = useTranslation();
-
   return (
+  
     <nav className={styles.nav}>
-      <header className={styles.header}>
+      <div className={styles.div}>
         <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
         <LanguageSwitcher />
-      </header>
+      </div>
       <ul className={styles.ul}>
         <li className={styles.li}>
           <Link
@@ -61,5 +61,7 @@ export function NavBar({ theme, toggleTheme }) {
         </li>
       </ul>
     </nav>
+    
+    
   );
 }

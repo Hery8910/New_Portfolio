@@ -1,46 +1,45 @@
-import React, { useState, useEffect } from 'react';
-import { useTranslation } from 'react-i18next'
-import { ThemeProvider } from 'styled-components';
-import { GlobalStyles, lightTheme, darkTheme } from './styles/GlobalStyles';
-import { Header } from './components/Header';
-import { Projects } from './components/Projects';
-import { Contact } from './components/Contact';
-import { Education } from './components/Education';
-import { NavBar } from './components/NavBar'
-import {Recommendation} from './components/Recommendation'
+import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
+import { ThemeProvider } from "styled-components";
+import { GlobalStyles, lightTheme, darkTheme } from "./styles/GlobalStyles";
+import { NavBar } from "./components/NavBar";
+import { Header } from "./components/Header";
+import { Projects } from "./components/Projects";
+import { Education } from "./components/Education";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
+import "./App.css"
 
 const App = () => {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState("dark");
   const { t } = useTranslation();
   const toggleTheme = () => {
-    setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
   };
 
-  useEffect(() => {
-    document.body.className = theme === 'light' ? 'light-theme' : 'dark-theme';
-  }, [theme]);
+
 
   return (
-    <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
-      <div>
-      <NavBar theme={theme} toggleTheme={toggleTheme} />
-      <div id="home">
-        <Header />
-      </div>
-      <div id="projects">
-        <Projects />
-      </div>
-      <div id="contact">
-        <Contact />
-      </div>
-      <div id="education">
-        <Education />
-      </div>
-      <div>
-      </div>
-      {/* <Footer /> */}
-    </div>
+      <main>
+        <NavBar toggleTheme={toggleTheme} />
+        <section id="home">
+          <Header />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="education">
+          <Education />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
+        <footer>
+          <Footer />
+        </footer>
+      </main>
     </ThemeProvider>
   );
 };

@@ -1,16 +1,28 @@
 import React from "react";
 import "./ThemeToggle.css";
+import {Switch} from "@nextui-org/switch";
 import { ImSun } from "react-icons/im";
 import { BsMoon } from "react-icons/bs";
 
-export function ThemeToggle({ theme, toggleTheme }) {
+export function ThemeToggle({ toggleTheme }) {
   return (
-    <button
-     className="theme-toggle" 
-     onClick={toggleTheme}
-     aria-label="Theme toggle"
+    <>
+      <Switch
+      defaultSelected
+      onChange={toggleTheme}
+      size="lg"
+      color="secondary"
+      thumbIcon={({ isSelected }) =>
+        isSelected ? (
+          <ImSun /> 
+        ) : (
+          <BsMoon />
+        )
+      }
     >
-      {theme === "light" ? <ImSun /> : <BsMoon />}
-    </button>
+
+    </Switch>
+   
+    </>
   );
 }
