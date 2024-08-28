@@ -1,6 +1,6 @@
 .section {
     max-width: 1100px;
-    margin: 25rem auto;
+    margin: 35dvh auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,3 +37,18 @@
     margin-right: 2rem;
 }
 
+@media screen and (max-width: 1100px) {
+
+    .section {
+      flex-direction: column;
+      margin-bottom: 30dvh;
+
+    }
+    .h2 {
+    margin: 2rem;
+
+    }
+    .p {
+        margin: 2rem;
+    }
+  }

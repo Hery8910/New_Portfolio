@@ -16,7 +16,7 @@
       "name": "React Guide",
       "description": "This project is part of the full-stack web development course I participated in. I wanted to compile the knowledge I gained during the course and make it easily and efficiently accessible. The motivation was to create a tool that allows me and other users to access information about React. In this application, you will find component examples with their code, ready to be reused, and relevant information about their use and styling. I hope it is as helpful to you as it has been to me.",
       "techStack": "React, Node.js",
-      "image": "/images/React_Guide.webp",
+      "image": "/images/ReactGuide.webp",
       "info": "Link to ",
       "github": "https://github.com/Hery8910/React-Guide",
       "live": "https://react-guide.onrender.com"
