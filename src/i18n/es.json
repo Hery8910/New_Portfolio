@@ -54,22 +54,12 @@
     "recommendation1": {
       "name": "Matteo Sette",
       "title": "Profesor en el DCI",
-      "recommendation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati illum quod vero, eveniet impedit natus ab repellat, officiis mollitia nihil ex totam? Repellendus quo facilis vero ratione doloribus assumenda reiciendis nam accusamus hic, aspernatur doloremque quaerat velit qui, mollitia libero! Rerum beatae eligendi obcaecati nobis, corporis numquam quis ullam ipsam sunt voluptates deserunt deleniti necessitatibus accusantium placeat doloribus. Ducimus perspiciatis libero facilis ab commodi deserunt labore quisquam pariatur, facere praesentium voluptate aut autem itaque, porro voluptatum eligendi excepturi maiores beatae nesciunt quod obcaecati minima magnam culpa suscipit. Velit assumenda numquam rem possimus, asperiores facere minus totam. Iure, voluptatum dicta!"
-    },
-    "recommendation2": {
-      "name": "Paola Pastore",
-      "title": "Profesora en el DCI",
-      "recommendation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati illum quod vero, eveniet impedit natus ab repellat, officiis mollitia nihil ex totam? Repellendus quo facilis vero ratione doloribus assumenda reiciendis nam accusamus hic, aspernatur doloremque quaerat velit qui, mollitia libero! Rerum beatae eligendi obcaecati nobis, corporis numquam quis ullam ipsam sunt voluptates deserunt deleniti necessitatibus accusantium placeat doloribus. Ducimus perspiciatis libero facilis ab commodi deserunt labore quisquam pariatur, facere praesentium voluptate aut autem itaque, porro voluptatum eligendi excepturi maiores beatae nesciunt quod obcaecati minima magnam culpa suscipit. Velit assumenda numquam rem possimus, asperiores facere minus totam. Iure, voluptatum dicta!"
+      "recommendation": {}
     },
     "recommendation3":{
       "name": "Zakaria Hamdan",
       "title": "Profesor en el DCI",
-      "recommendation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati illum quod vero, eveniet impedit natus ab repellat, officiis mollitia nihil ex totam? Repellendus quo facilis vero ratione doloribus assumenda reiciendis nam accusamus hic, aspernatur doloremque quaerat velit qui, mollitia libero! Rerum beatae eligendi obcaecati nobis, corporis numquam quis ullam ipsam sunt voluptates deserunt deleniti necessitatibus accusantium placeat doloribus. Ducimus perspiciatis libero facilis ab commodi deserunt labore quisquam pariatur, facere praesentium voluptate aut autem itaque, porro voluptatum eligendi excepturi maiores beatae nesciunt quod obcaecati minima magnam culpa suscipit. Velit assumenda numquam rem possimus, asperiores facere minus totam. Iure, voluptatum dicta!"
-    },
-    "recommendation4": {
-      "name": "Johanna Heim",
-      "title": "Jefa de curso en el DCI",
-      "recommendation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati illum quod vero, eveniet impedit natus ab repellat, officiis mollitia nihil ex totam? Repellendus quo facilis vero ratione doloribus assumenda reiciendis nam accusamus hic, aspernatur doloremque quaerat velit qui, mollitia libero! Rerum beatae eligendi obcaecati nobis, corporis numquam quis ullam ipsam sunt voluptates deserunt deleniti necessitatibus accusantium placeat doloribus. Ducimus perspiciatis libero facilis ab commodi deserunt labore quisquam pariatur, facere praesentium voluptate aut autem itaque, porro voluptatum eligendi excepturi maiores beatae nesciunt quod obcaecati minima magnam culpa suscipit. Velit assumenda numquam rem possimus, asperiores facere minus totam. Iure, voluptatum dicta!"
+      "recommendation": {}
     }
   },
   "footer": {

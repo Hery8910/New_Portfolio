@@ -54,22 +54,12 @@
     "recommendation1": {
       "name": "Matteo Sette",
       "title": "Lehrer bei DCI",
-      "recommendation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati illum quod vero, eveniet impedit natus ab repellat, officiis mollitia nihil ex totam? Repellendus quo facilis vero ratione doloribus assumenda reiciendis nam accusamus hic, aspernatur doloremque quaerat velit qui, mollitia libero! Rerum beatae eligendi obcaecati nobis, corporis numquam quis ullam ipsam sunt voluptates deserunt deleniti necessitatibus accusantium placeat doloribus. Ducimus perspiciatis libero facilis ab commodi deserunt labore quisquam pariatur, facere praesentium voluptate aut autem itaque.!"
-    },
-    "recommendation2": {
-      "name": "Paola Pastore",
-      "title": "Lehrerin bei DCI",
-      "recommendation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati illum quod vero, eveniet impedit natus ab repellat, officiis mollitia nihil ex totam? Repellendus quo facilis vero ratione doloribus assumenda reiciendis nam accusamus hic, aspernatur doloremque quaerat velit qui, mollitia libero! Rerum beatae eligendi obcaecati nobis, corporis numquam quis ullam ipsam sunt voluptates deserunt deleniti necessitatibus accusantium placeat doloribus. Ducimus perspiciatis libero facilis ab commodi deserunt labore quisquam pariatur, facere praesentium voluptate aut autem itaque.!"
+      "recommendation": {}
     },
     "recommendation3":{
       "name": "Zakaria Hamdan",
       "title": "Lehrer bei DCI",
-      "recommendation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati illum quod vero, eveniet impedit natus ab repellat, officiis mollitia nihil ex totam? Repellendus quo facilis vero ratione doloribus assumenda reiciendis nam accusamus hic, aspernatur doloremque quaerat velit qui, mollitia libero! Rerum beatae eligendi obcaecati nobis, corporis numquam quis ullam ipsam sunt voluptates deserunt deleniti necessitatibus accusantium placeat doloribus. Ducimus perspiciatis libero facilis ab commodi deserunt labore quisquam pariatur, facere praesentium voluptate aut autem itaque.!"
-    },
-    "recommendation4": {
-      "name": "Johanna Heim",
-      "title": "Klassenleiter bei DCI",
-      "recommendation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati illum quod vero, eveniet impedit natus ab repellat, officiis mollitia nihil ex totam? Repellendus quo facilis vero ratione doloribus assumenda reiciendis nam accusamus hic, aspernatur doloremque quaerat velit qui, mollitia libero! Rerum beatae eligendi obcaecati nobis, corporis numquam quis ullam ipsam sunt voluptates deserunt deleniti necessitatibus accusantium placeat doloribus. Ducimus perspiciatis libero facilis ab commodi deserunt labore quisquam pariatur, facere praesentium voluptate aut autem itaque.!"
+      "recommendation": {}
     }
   },
   "footer": {

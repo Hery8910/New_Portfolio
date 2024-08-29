@@ -7,6 +7,7 @@ import { Header } from "./components/Header";
 import { Projects } from "./components/Projects";
 import { Education } from "./components/Education";
 import { Contact } from "./components/Contact";
+import {Recommendation} from './components/Recommendation'
 import { Footer } from "./components/Footer";
 import "./App.css"
 
@@ -35,6 +36,9 @@ const App = () => {
         </section>
         <section id="contact">
           <Contact />
+        </section>
+        <section id="recommendation">
+          <Recommendation name={t("recommendations.recommendation1.name")} title={t("recommendations.recommendation1.title")} recommendation={t("recommendations.recommendation1.recommendation")}/>
         </section>
         <footer>
           <Footer />
