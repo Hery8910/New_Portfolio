@@ -22,6 +22,7 @@ export function Projects() {
         </aside>
         <section className={styles.section}>
           <h2 className={styles.h2}>{t("projects.project1.name")}</h2>
+          <p className={styles.p}>{t("projects.project1.description")}</p>
           <ul className={styles.ul}>
             <li className={styles.li}>
               <a
@@ -48,7 +49,6 @@ export function Projects() {
               </a>
             </li>
           </ul>
-          <p className={styles.p}>{t("projects.project1.description")}</p>
         </section>
       </main>
     </>

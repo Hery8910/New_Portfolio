@@ -3,24 +3,29 @@ import { Link } from "react-scroll";
 import { useTranslation } from "react-i18next";
 import { LanguageSwitcher } from "../LanguageSwitcher";
 import { ThemeToggle } from "../ThemeToggle";
+import { IoMenu } from "react-icons/io5";
 import styles from "./NavBar.module.css";
 
 export function NavBar({ theme, toggleTheme }) {
   const { t } = useTranslation();
+  const [menuOpen, setMenuOpen] = useState(false);
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
   return (
-  
     <nav className={styles.nav}>
       <div className={styles.div}>
         <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
         <LanguageSwitcher />
       </div>
-      <ul className={styles.ul}>
+      <div className={styles.nav_div}>
+      <ul className={menuOpen ? styles.ul_open : styles.ul_close}>
         <li className={styles.li}>
           <Link
             to="home"
             smooth={true}
             duration={500}
-            className="navbar-link"
+            className={styles.a}
             aria-label="Link to home-section"
           >
             {t("nav.home")}
@@ -31,7 +36,7 @@ export function NavBar({ theme, toggleTheme }) {
             to="projects"
             smooth={true}
             duration={500}
-            className="navbar-link"
+            className={styles.a}
             aria-label="Link to projects-section"
           >
             {t("nav.projects")}
@@ -42,7 +47,7 @@ export function NavBar({ theme, toggleTheme }) {
             to="contact"
             smooth={true}
             duration={500}
-            className="navbar-link"
+            className={styles.a}
             aria-label="Link to contact-section"
           >
             {t("nav.contact")}
@@ -53,15 +58,17 @@ export function NavBar({ theme, toggleTheme }) {
             to="education"
             smooth={true}
             duration={500}
-            className="navbar-link"
+            className={styles.a}
             aria-label="Link to education-section"
           >
             {t("nav.education")}
           </Link>
         </li>
       </ul>
+      <button className={styles.button} onClick={toggleMenu}>
+        <IoMenu />
+      </button>
+      </div>
     </nav>
-    
-    
   );
 }
