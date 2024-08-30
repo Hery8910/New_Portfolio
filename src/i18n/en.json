@@ -8,7 +8,8 @@
     "home": "Home",
     "projects": "Projects",
     "education": "Education",
-    "contact": "Contact"
+    "contact": "Contact",
+    "recommendation": "Recommendation"
   },
   "projects": {
     "title": "React Guide",
@@ -54,18 +55,18 @@
     "recommendation1": {
       "name": "Matteo Sette",
       "title": "Teacher at DCI Digital Carrier Institute GmbH",
-      "recommendation":{
-      "paragraph1": " I am pleased to recommend Heriberto, with whom I have had the pleasure of working for nearly a year. During this time, he has consistently demonstrated exceptional skills, a strong work ethic, and a commitment to personal and academic growth.",
-      "paragraph2": " One of the most notable contributions Heriberto made was stepping up as the class tutor. He not only assisted peers with their tasks outside of lessons but also fostered a collaborative learning environment. His ability to communicate complex concepts clearly and effectively motivated classmates to achieve their goals, significantly enhancing the overall classroom experience.", 
-      "paragraph3": " Heriberto's curiosity and dedication to learning extend well beyond the classroom. He actively sought out additional resources and opportunities to deepen his understanding of the subject matter. His commitment to tutoring sessions was excellent, as he offered flexible hours throughout the week, accommodating both morning and afternoon schedules to ensure that all students had access to support.",
-      "paragraph4": " The impact Heriberto has had on our class and the broader learning community is undeniable. His initiative and leadership have not only helped peers succeed but have also inspired a culture of collaboration and mutual support among students.",
-      "paragraph5": " I wholeheartedly endorse Heriberto for any future endeavors. He possesses the potential for continued success and will undoubtedly make a positive impact wherever he goes. It has been a true pleasure working with him, and I cannot recommend him strongly enough."
-    }
+      "recommendation": [
+        "I am pleased to recommend Heriberto, with whom I have had the pleasure of working for nearly a year. During this time, he has consistently demonstrated exceptional skills, a strong work ethic, and a commitment to personal and academic growth.",
+        "One of the most notable contributions Heriberto made was stepping up as the class tutor. He not only assisted peers with their tasks outside of lessons but also fostered a collaborative learning environment. His ability to communicate complex concepts clearly and effectively motivated classmates to achieve their goals, significantly enhancing the overall classroom experience.", 
+        "Heriberto's curiosity and dedication to learning extend well beyond the classroom. He actively sought out additional resources and opportunities to deepen his understanding of the subject matter. His commitment to tutoring sessions was excellent, as he offered flexible hours throughout the week, accommodating both morning and afternoon schedules to ensure that all students had access to support.",
+        "The impact Heriberto has had on our class and the broader learning community is undeniable. His initiative and leadership have not only helped peers succeed but have also inspired a culture of collaboration and mutual support among students.",
+        "I wholeheartedly endorse Heriberto for any future endeavors. He possesses the potential for continued success and will undoubtedly make a positive impact wherever he goes. It has been a true pleasure working with him, and I cannot recommend him strongly enough."
+      ]
     },
-    "recommendation3": {
+    "recommendation2": {
       "name": "Zakaria Hamdan",
       "title": "Teacher at DCI Digital Carrier Institute GmbH",
-      "recommendation": {}
+      "recommendation": []
     }
   },
   "footer": {

@@ -8,7 +8,8 @@
     "home": "Home",
     "projects": "Projekte",
     "education": "Bildung",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "recommendation": "Empfehlung"
   },
   "projects": {
     "title": "React Guide",
@@ -49,17 +50,22 @@
     "about": "Über mich.",
     "aboutMessage": "Im Jahr 2023 beschloss ich, mich neuen beruflichen Herausforderungen zu stellen und neue Horizonte zu erkunden. Während eines Orientierungskurses bei DCI entdeckte ich die faszinierende Welt der Webentwicklung, die mich dazu inspirierte, eine Karriere als Full-Stack-Webentwickler einzuschlagen. Dieser Weg hat es mir ermöglicht, wieder kreativ zu sein und Probleme aus innovativen Perspektiven anzugehen. Im Verlauf des Kurses habe ich mein Wissen über die Erstellung von Webanwendungen erweitert und ein solides Verständnis ihrer technischen Anforderungen erworben. Außerdem wurde ich ausgewählt, Teil des DCI-Tutorenprogramms zu werden, wo ich die Gelegenheit hatte, meine Mitschüler bei ihren Studien und Projekten zu unterstützen. Diese Erfahrung ermöglichte es mir nicht nur, mit außergewöhnlichen Menschen zusammenzuarbeiten, sondern auch von ihnen zu lernen und meine zwischenmenschlichen Fähigkeiten zu verbessern. Für weitere Informationen über meinen Werdegang können Sie meinen Lebenslauf einsehen."
   },
-  "recommendations": {
-    "title": "Empfehlungen",
-    "recommendation1": {
-      "name": "Matteo Sette",
-      "title": "Lehrer bei DCI",
-      "recommendation": {}
-    },
-    "recommendation3":{
+ "recommendations": {
+  "recommendation1": {
+    "name": "Matteo Sette",
+    "title": "Lehrer bei DCI Digital Carrier Institute GmbH",
+    "recommendation": [
+      "Ich freue mich, Heriberto zu empfehlen, mit dem ich fast ein Jahr lang zusammengearbeitet habe. In dieser Zeit hat er stets außergewöhnliche Fähigkeiten, eine starke Arbeitsmoral und ein Engagement für persönliches und akademisches Wachstum gezeigt.",
+      "Eine der bemerkenswertesten Beiträge von Heriberto war, dass er die Rolle des Klassentutors übernommen hat. Er half nicht nur seinen Mitschülern bei ihren Aufgaben außerhalb des Unterrichts, sondern förderte auch eine kollaborative Lernumgebung. Seine Fähigkeit, komplexe Konzepte klar und effektiv zu vermitteln, motivierte seine Mitschüler, ihre Ziele zu erreichen, und verbesserte die Klassenerfahrung erheblich.",
+      "Heribertos Neugier und Engagement für das Lernen gehen weit über das Klassenzimmer hinaus. Er suchte aktiv nach zusätzlichen Ressourcen und Möglichkeiten, um sein Verständnis der Themen zu vertiefen. Sein Engagement für die Nachhilfesitzungen war ausgezeichnet, da er während der Woche flexible Zeiten anbot und sowohl morgens als auch nachmittags Termine arrangierte, um sicherzustellen, dass alle Schüler Unterstützung erhielten.",
+      "Der Einfluss, den Heriberto auf unsere Klasse und die breitere Lerngemeinschaft hatte, ist unbestreitbar. Sein Engagement und seine Führungsqualitäten haben nicht nur seinen Mitschülern geholfen, erfolgreich zu sein, sondern auch eine Kultur der Zusammenarbeit und gegenseitigen Unterstützung unter den Schülern inspiriert.",
+      "Ich empfehle Heriberto uneingeschränkt für alle zukünftigen Vorhaben. Er hat das Potenzial, weiterhin erfolgreich zu sein, und wird zweifellos überall, wo er hingeht, einen positiven Einfluss haben. Es war eine wahre Freude, mit ihm zusammenzuarbeiten, und ich kann ihn nicht genug empfehlen."
+    ]
+  },
+    "recommendation2":{
       "name": "Zakaria Hamdan",
       "title": "Lehrer bei DCI",
-      "recommendation": {}
+      "recommendation": []
     }
   },
   "footer": {

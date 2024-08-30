@@ -64,6 +64,17 @@ export function NavBar({ theme, toggleTheme }) {
             {t("nav.education")}
           </Link>
         </li>
+        <li className={styles.li}>
+          <Link
+            to="recommendation"
+            smooth={true}
+            duration={500}
+            className={styles.a}
+            aria-label="Link to recommendation-section"
+          >
+            {t("nav.recommendation")}
+          </Link>
+        </li>
       </ul>
       <button className={styles.button} onClick={toggleMenu}>
         <IoMenu />

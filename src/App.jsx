@@ -38,7 +38,8 @@ const App = () => {
           <Contact />
         </section>
         <section id="recommendation">
-          <Recommendation name={t("recommendations.recommendation1.name")} title={t("recommendations.recommendation1.title")} recommendation={t("recommendations.recommendation1.recommendation")}/>
+      <h1>{t("recommendations.title")}</h1>
+          <Recommendation  name={t("recommendations.recommendation1.name")} title={t("recommendations.recommendation1.title")} recommendation={t('recommendations.recommendation1.recommendation', { returnObjects: true })}/>
         </section>
         <footer>
           <Footer />

@@ -8,7 +8,8 @@
     "home": "Inicio",
     "projects": "Proyectos",
     "education": "Educación",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "recommendation": "Recomendación"
   },
   "projects": {
     "title": "React Guide",
@@ -50,16 +51,22 @@
     "aboutMessage": "En 2023, decidí enfrentar nuevos desafíos profesionales y explorar nuevos horizontes. Durante un curso de orientación en el DCI, descubrí el fascinante mundo del desarrollo web, lo que me inspiró a seguir una carrera como desarrollador web full-stack. Este camino me ha permitido volver a ser creativo y abordar problemas desde perspectivas innovadoras. A lo largo del curso, he ampliado mis conocimientos en la creación de aplicaciones web, adquiriendo una comprensión sólida de sus requerimientos técnicos. Además, fui seleccionado para formar parte del programa de tutores de DCI, donde tuve la oportunidad de apoyar a mis compañeros en sus estudios y proyectos. Esta experiencia no solo me permitió colaborar con personas excepcionales, sino también aprender de ellas y enriquecer mis habilidades interpersonales. Si desean más información sobre mi recorrido, pueden consultar mi CV."
   },
 "recommendations": {
-    "title": "Recomendación",
-    "recommendation1": {
-      "name": "Matteo Sette",
-      "title": "Profesor en el DCI",
-      "recommendation": {}
-    },
-    "recommendation3":{
+  "recommendation1": {
+    "name": "Matteo Sette",
+    "title": "Profesor en DCI Digital Carrier Institute GmbH",
+    "recommendation": [
+      "Me complace recomendar a Heriberto, con quien he tenido el placer de trabajar durante casi un año. Durante este tiempo, ha demostrado consistentemente habilidades excepcionales, una sólida ética de trabajo y un compromiso con el crecimiento personal y académico.",
+      "Una de las contribuciones más notables de Heriberto fue asumir el rol de tutor de la clase. No solo asistió a sus compañeros con sus tareas fuera de las lecciones, sino que también fomentó un ambiente de aprendizaje colaborativo. Su habilidad para comunicar conceptos complejos de manera clara y efectiva motivó a sus compañeros a alcanzar sus objetivos, mejorando significativamente la experiencia en el aula.",
+      "La curiosidad y dedicación de Heriberto al aprendizaje se extienden mucho más allá del aula. Buscó activamente recursos adicionales y oportunidades para profundizar su comprensión de los temas. Su compromiso con las sesiones de tutoría fue excelente, ofreciendo horarios flexibles a lo largo de la semana, acomodando tanto mañanas como tardes para asegurar que todos los estudiantes tuvieran acceso al apoyo.",
+      "El impacto que Heriberto ha tenido en nuestra clase y en la comunidad de aprendizaje en general es innegable. Su iniciativa y liderazgo no solo han ayudado a sus compañeros a tener éxito, sino que también han inspirado una cultura de colaboración y apoyo mutuo entre los estudiantes.",
+      "Recomiendo encarecidamente a Heriberto para cualquier proyecto futuro. Posee el potencial para continuar teniendo éxito y sin duda tendrá un impacto positivo donde quiera que vaya. Ha sido un verdadero placer trabajar con él, y no puedo recomendarlo lo suficiente."
+    ]
+  },
+
+    "recommendation2":{
       "name": "Zakaria Hamdan",
       "title": "Profesor en el DCI",
-      "recommendation": {}
+      "recommendation": []
     }
   },
   "footer": {
