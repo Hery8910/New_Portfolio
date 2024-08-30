@@ -48,7 +48,12 @@
   "education": {
     "skills": "Skills",
     "about": "About me.",
-    "aboutMessage": "In 2023, I decided to face new professional challenges and explore new horizons. During an orientation course at DCI, I discovered the fascinating world of web development, which inspired me to pursue a career as a full-stack web developer. This path has allowed me to be creative again and tackle problems from innovative perspectives. Throughout the course, I have expanded my knowledge of building web applications, gaining a solid understanding of their technical requirements. Additionally, I was selected to be part of the DCI tutoring program, where I had the opportunity to support my classmates in their studies and projects. This experience not only allowed me to collaborate with exceptional people but also to learn from them and enhance my interpersonal skills. For more information about my journey, please see my CV."
+    "aboutMessage": "In 2023, I decided to face new professional challenges and explore new horizons. During an orientation course at DCI, I discovered the fascinating world of web development, which inspired me to pursue a career as a full-stack web developer. This path has allowed me to be creative again and tackle problems from innovative perspectives. Throughout the course, I have expanded my knowledge of building web applications, gaining a solid understanding of their technical requirements. Additionally, I was selected to be part of the DCI tutoring program, where I had the opportunity to support my classmates in their studies and projects. This experience not only allowed me to collaborate with exceptional people but also to learn from them and enhance my interpersonal skills. For more information about my journey, please see my CV.",
+    "cv": {
+      "download": "Download",
+      "show": "Open",
+      "link": "./cv/Heriberto_Santana_Solsona_EN.pdf"
+    }
   },
   "recommendations": {
     "title": "Recommendation",

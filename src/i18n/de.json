@@ -48,7 +48,13 @@
   "education": {
     "skills": "Fähigkeiten",
     "about": "Über mich.",
-    "aboutMessage": "Im Jahr 2023 beschloss ich, mich neuen beruflichen Herausforderungen zu stellen und neue Horizonte zu erkunden. Während eines Orientierungskurses bei DCI entdeckte ich die faszinierende Welt der Webentwicklung, die mich dazu inspirierte, eine Karriere als Full-Stack-Webentwickler einzuschlagen. Dieser Weg hat es mir ermöglicht, wieder kreativ zu sein und Probleme aus innovativen Perspektiven anzugehen. Im Verlauf des Kurses habe ich mein Wissen über die Erstellung von Webanwendungen erweitert und ein solides Verständnis ihrer technischen Anforderungen erworben. Außerdem wurde ich ausgewählt, Teil des DCI-Tutorenprogramms zu werden, wo ich die Gelegenheit hatte, meine Mitschüler bei ihren Studien und Projekten zu unterstützen. Diese Erfahrung ermöglichte es mir nicht nur, mit außergewöhnlichen Menschen zusammenzuarbeiten, sondern auch von ihnen zu lernen und meine zwischenmenschlichen Fähigkeiten zu verbessern. Für weitere Informationen über meinen Werdegang können Sie meinen Lebenslauf einsehen."
+    "aboutMessage": "Im Jahr 2023 beschloss ich, mich neuen beruflichen Herausforderungen zu stellen und neue Horizonte zu erkunden. Während eines Orientierungskurses bei DCI entdeckte ich die faszinierende Welt der Webentwicklung, die mich dazu inspirierte, eine Karriere als Full-Stack-Webentwickler einzuschlagen. Dieser Weg hat es mir ermöglicht, wieder kreativ zu sein und Probleme aus innovativen Perspektiven anzugehen. Im Verlauf des Kurses habe ich mein Wissen über die Erstellung von Webanwendungen erweitert und ein solides Verständnis ihrer technischen Anforderungen erworben. Außerdem wurde ich ausgewählt, Teil des DCI-Tutorenprogramms zu werden, wo ich die Gelegenheit hatte, meine Mitschüler bei ihren Studien und Projekten zu unterstützen. Diese Erfahrung ermöglichte es mir nicht nur, mit außergewöhnlichen Menschen zusammenzuarbeiten, sondern auch von ihnen zu lernen und meine zwischenmenschlichen Fähigkeiten zu verbessern. Für weitere Informationen über meinen Werdegang können Sie meinen Lebenslauf einsehen.",
+    "cv": {
+      "download": "Herunterladen",
+      "show": "Offnen",
+      "link": "./cv/Heriberto_Santana_Solsona_DE.pdf"
+    }
+  
   },
  "recommendations": {
   "recommendation1": {
