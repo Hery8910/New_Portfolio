@@ -55,13 +55,13 @@
   cursor: pointer;
   padding: 0.5rem;
   border-radius: 4px;
-  
+  width: 100%;
   text-align: center;
   background-color: transparent;
   transition: all 0.3s ease-in-out;
   border-right: 1px solid #1e70878c;
-  border-bottom: 1px solid #1e70878c;
-  box-shadow: 1px 1px 3px #1e70878c;
+  border: 1px solid #1e70878c;
+  box-shadow: 0px 0px 3px #1e70878c;
 
 }
 .li:hover {

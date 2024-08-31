@@ -1,13 +1,11 @@
 .main {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
-  height: 80vh;
+  width: 100%;
   max-width: 1000px;
-  margin: 10vh auto;
+  margin: 25dvh auto;
 }
 
 .img {
@@ -44,4 +42,12 @@
 .a:hover {
   color: #4499b1;
   scale: 110%;
+}
+@media screen and (max-width: 425px) {
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10dvh 3rem;
+  }
 }

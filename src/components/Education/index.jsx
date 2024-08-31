@@ -41,11 +41,13 @@ export function Education() {
             href={t("education.cv.link")}
             download="Heriberto_Santana_CV.pdf"
           >
-            {t("education.cv.show")} <FaDownload />
+            {t("education.cv.download")} CV <FaDownload />
           </a>
           {isOpen ? (
             <div className={styles.showPdf}>
-              <button  className={styles.closeButton} onClick={handelClose}>X</button>
+              <button className={styles.closeButton} onClick={handelClose}>
+                X
+              </button>
               <iframe
                 className={styles.iframe}
                 src={t("education.cv.link")}
@@ -55,7 +57,7 @@ export function Education() {
             </div>
           ) : (
             <button className={styles.showButton} onClick={handelOpen}>
-              {t("education.cv.download")}
+              {t("education.cv.show")} CV
             </button>
           )}
         </div>
