@@ -9,7 +9,6 @@ import { Education } from "./components/Education";
 import { Contact } from "./components/Contact";
 import {Recommendation} from './components/Recommendation'
 import { Footer } from "./components/Footer";
-import "./App.css"
 
 const App = () => {
   const [theme, setTheme] = useState("dark");
@@ -38,7 +37,7 @@ const App = () => {
           <Contact />
         </section>
         <section id="recommendation">
-      <h1>{t("recommendations.title")}</h1>
+      <h1 style={{paddingLeft: "1rem"}}>{t("recommendations.title")}</h1>
           <Recommendation  name={t("recommendations.recommendation1.name")} title={t("recommendations.recommendation1.title")} recommendation={t('recommendations.recommendation1.recommendation', { returnObjects: true })}/>
         </section>
         <footer>

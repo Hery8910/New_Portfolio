@@ -3,14 +3,11 @@
   cursor: pointer;
   display: flex;
   justify-content: start;
-  width: 4rem;
-  height: 2.4rem;
   border-radius: 4px;
   padding: 0.5rem;
   background-color: transparent;
   border: 1px solid #1e70878c;
   box-shadow: 1px 1px 3px #1e70878c;
-  cursor: pointer;
 }
 .select:hover {
   background-color:  #1e70878c;
@@ -20,7 +17,4 @@
   border-color: rgba(141, 141, 141, 0.7);
 }
 
-.option {
-  background-color: transparent;
-  color: black;
-}
+

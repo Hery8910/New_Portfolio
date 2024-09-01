@@ -14,71 +14,69 @@ export function NavBar({ theme, toggleTheme }) {
   };
   return (
     <nav className={styles.nav}>
+      <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
       <div className={styles.div}>
-        <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
         <LanguageSwitcher />
-      </div>
-      <div className={styles.nav_div}>
-      <ul className={menuOpen ? styles.ul_open : styles.ul_close}>
-        <li className={styles.li}>
-          <Link
-            to="home"
-            smooth={true}
-            duration={500}
-            className={styles.a}
-            aria-label="Link to home-section"
-          >
-            {t("nav.home")}
-          </Link>
-        </li>
-        <li className={styles.li}>
-          <Link
-            to="projects"
-            smooth={true}
-            duration={500}
-            className={styles.a}
-            aria-label="Link to projects-section"
-          >
-            {t("nav.projects")}
-          </Link>
-        </li>
-        <li className={styles.li}>
-          <Link
-            to="contact"
-            smooth={true}
-            duration={500}
-            className={styles.a}
-            aria-label="Link to contact-section"
-          >
-            {t("nav.contact")}
-          </Link>
-        </li>
-        <li className={styles.li}>
-          <Link
-            to="education"
-            smooth={true}
-            duration={500}
-            className={styles.a}
-            aria-label="Link to education-section"
-          >
-            {t("nav.education")}
-          </Link>
-        </li>
-        <li className={styles.li}>
-          <Link
-            to="recommendation"
-            smooth={true}
-            duration={500}
-            className={styles.a}
-            aria-label="Link to recommendation-section"
-          >
-            {t("nav.recommendation")}
-          </Link>
-        </li>
-      </ul>
-      <button className={styles.button} onClick={toggleMenu}>
-        <IoMenu />
-      </button>
+        <button className={styles.button} onClick={toggleMenu}>
+          <IoMenu />
+        </button>
+        <ul className={menuOpen ? styles.ul_open : styles.ul_close}>
+          <li className={styles.li}>
+            <Link
+              to="home"
+              smooth={true}
+              duration={1000}
+              className={styles.a}
+              aria-label="Link to home-section"
+            >
+              {t("nav.home")}
+            </Link>
+          </li>
+          <li className={styles.li}>
+            <Link
+              to="projects"
+              smooth={true}
+              duration={1000}
+              className={styles.a}
+              aria-label="Link to projects-section"
+            >
+              {t("nav.projects")}
+            </Link>
+          </li>
+          <li className={styles.li}>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={1000}
+              className={styles.a}
+              aria-label="Link to contact-section"
+            >
+              {t("nav.contact")}
+            </Link>
+          </li>
+          <li className={styles.li}>
+            <Link
+              to="education"
+              smooth={true}
+              duration={1000}
+              className={styles.a}
+              aria-label="Link to education-section"
+            >
+              {t("nav.education")}
+            </Link>
+          </li>
+          <li className={styles.li}>
+            <Link
+              to="recommendation"
+              smooth={true}
+              duration={1000}
+              className={styles.a}
+              aria-label="Link to recommendation-section"
+            >
+              {t("nav.recommendation")}
+            </Link>
+          </li>
+        </ul>
       </div>
     </nav>
   );

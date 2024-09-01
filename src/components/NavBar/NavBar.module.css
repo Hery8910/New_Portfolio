@@ -1,83 +1,74 @@
 .nav {
-  width: 100%;
   position: fixed;
+  width: 100%;
   top: 1.5rem;
-  left: 0;
+  left: 1rem;
   display: flex;
-  align-items: start;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
 }
 .div {
   display: flex;
-  gap: 1rem;
-}
-.nav_div {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: end;
+  margin-right: 2rem;
   gap: 1rem;
 }
 .ul_open {
+  padding: 0;
   position: absolute;
-  margin: 0;
   list-style: none;
   display: flex;
-  flex-direction: column;
-  top: 3rem;
-  padding: 0;
-  align-items: flex-end;
+  flex-direction: row-reverse;
+  gap: 1rem;
+  top: 25rem;
+  right: -17rem;
   transition: all 0.5s ease-in-out;
+  transform: rotate(-90deg);
+  background-color: transparent;
+  border: 1px solid #1e70878c;
+  box-shadow: 1px 1px 3px #1e70878c;
 }
 .ul_close {
   position: absolute;
-  margin: 0;
   list-style: none;
-  display: none;
-  top: 3rem;
-  padding: 0;
-  align-items: end;
-  gap: 10px;
-}
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+  top: 25rem;
+  right: -20rem;
+  transition: all 0.5s ease-in-out;
+  transform: rotate(-90deg);
+  background-color: transparent;
+  border: 1px solid #1e70878c;
+  box-shadow: 1px 1px 3px #1e70878c;
 
+}
 .button {
   font-size: inherit;
   border-radius: 4px;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 1rem;
   color: inherit;
   cursor: pointer;
   background-color: transparent;
   border: 1px solid #1e70878c;
   box-shadow: 1px 1px 3px #1e70878c;
 }
+.button:hover {
+  background-color: #1e70878c;
+}
 .li {
+  box-sizing: border-box;
   cursor: pointer;
-  padding: 0.5rem;
-  border-radius: 4px;
   width: 100%;
-  text-align: center;
-  background-color: transparent;
-  transition: all 0.3s ease-in-out;
-  border-right: 1px solid #1e70878c;
-  border: 1px solid #1e70878c;
-  box-shadow: 0px 0px 3px #1e70878c;
-
+  padding: 0.3rem 1rem;
+  margin-bottom: 1.8rem;
+  border: 1px solid transparent;
 }
 .li:hover {
   background-color: #1e7087f3;
   border: 1px solid #1e70878c;
   box-shadow: 1px 1px 3px #1e70878c;
-
 }
 .a {
-  padding: 0.5rem 2rem;
-}
+  width: 100%;
 
-.button:hover {
-  background-color: #1e70878c;
-}
-
-.li_open:hover {
-  background-color: #1e70878c;
 }

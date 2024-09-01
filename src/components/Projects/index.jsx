@@ -8,18 +8,18 @@ export function Projects() {
   const { t } = useTranslation();
 
   return (
-    <>
+    <section>
       <header>
         <h1 className={styles.h1}>{t("nav.projects")}</h1>
       </header>
       <main className={styles.main}>
-        <aside className={styles.aside}>
+        <section className={styles.img_section}>
           <img
             className={styles.img}
             src={t("projects.project1.image")}
             alt={t("projects.project1.name")}
           />
-        </aside>
+        </section>
         <section className={styles.section}>
           <h2 className={styles.h2}>{t("projects.project1.name")}</h2>
           <p className={styles.p}>{t("projects.project1.description")}</p>
@@ -51,6 +51,6 @@ export function Projects() {
           </ul>
         </section>
       </main>
-    </>
+    </section>
   );
 }

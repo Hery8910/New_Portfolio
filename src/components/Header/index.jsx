@@ -7,11 +7,11 @@ import { useTranslation } from 'react-i18next';
 export function Header() {
   const { t } = useTranslation();
   return (
-    <main className={styles.main}>
-      <div>
+    <section className={styles.section}>
+      <aside className={styles.aside}>
         <img className={styles.img} src="/images/Profil.webp" alt="Picture of Heriberto Santana" />
-      </div>
-      <div>
+      </aside>
+      <main>
         <p className={styles.p}>{t('header.greeting')}</p>
         <h1 className={styles.h1}>Heriberto Santana</h1>
         <h2 className={styles.h2}>{t('header.description')}</h2>
@@ -35,7 +35,7 @@ export function Header() {
           <FaLinkedin />
         </a>
         </div>
-      </div>
-    </main>
+      </main>
+    </section>
   );
 }

@@ -8,14 +8,15 @@ export function ThemeToggle({ toggleTheme }) {
   return (
     <>
       <Switch
+      className={styles.switch}
       defaultSelected
       onChange={toggleTheme}
       size="lg"
       thumbIcon={({ isSelected }) =>
         isSelected ? (
-          <ImSun className={styles.icon} /> 
+          <ImSun className={styles.icon_sun} /> 
         ) : (
-          <BsMoon className={styles.icon} />
+          <BsMoon className={styles.icon_moon} />
         )
       }
     >
