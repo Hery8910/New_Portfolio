@@ -20,7 +20,7 @@ export function NavBar({ theme, toggleTheme }) {
         <LanguageSwitcher />
         <Button className={styles.button} onClick={toggleMenu} label={<IoMenu />} />
           
-        <ul className={menuOpen ? styles.ul_open : styles.ul_close}>
+        {/* <ul className={menuOpen ? styles.ul_open : styles.ul_close}>
           <li className={styles.li}>
             <Link
               to="home"
@@ -76,7 +76,7 @@ export function NavBar({ theme, toggleTheme }) {
               {t("nav.recommendation")}
             </Link>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </nav>
   );

@@ -1,14 +1,21 @@
 .nav {
-  width: 100dvw;
   position: fixed;
-  top: 1.5rem;
   display: flex;
+  top: 0;
+  left: 0;
+  padding: 1rem;
   align-items: center;
   justify-content: space-between;
+  background: #1e708744;
+  border-radius: 0px 0px 8px 0px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.3px);
+  -webkit-backdrop-filter: blur(2.3px);
+  border-bottom: 1px solid #1e708796;
+  border-right: 1px solid #1e708796;
 }
 .div {
   display: flex;
-  margin-right: 2rem;
   gap: 1rem;
 }
 .button {

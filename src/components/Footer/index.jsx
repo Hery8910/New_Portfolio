@@ -5,7 +5,7 @@ import styles from "./Footer.module.css";
 export function Footer() {
   return (
     <>
-      <h2>With ❤️ from Berlin</h2>
+      <h4>With ❤️ from Berlin</h4>
     </>
 
   )
