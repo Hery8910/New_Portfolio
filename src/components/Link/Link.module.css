@@ -1,0 +1,21 @@
+.a {
+    color: #1e7087;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .a:hover {
+    color: #4499b1;
+    scale: 110%;
+  }.Button {
+    font-size: inherit;
+    border-radius: 4px;
+    padding: 0.5rem;
+    color: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #1e70878c;
+    box-shadow: 1px 1px 3px #1e70878c;
+  }
+  .Button:hover {
+    background-color: #1e70878c;
+  }

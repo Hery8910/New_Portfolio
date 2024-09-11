@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "../Link";
 import { FaGithub } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
@@ -8,10 +9,7 @@ export function Projects() {
   const { t } = useTranslation();
 
   return (
-    <section>
-      <header>
-        <h1 className={styles.h1}>{t("nav.projects")}</h1>
-      </header>
+    <>
       <main className={styles.main}>
         <section className={styles.img_section}>
           <img
@@ -25,32 +23,24 @@ export function Projects() {
           <p className={styles.p}>{t("projects.project1.description")}</p>
           <ul className={styles.ul}>
             <li className={styles.li}>
-              <a
-                className={styles.a}
+              <Link
                 href={t("projects.project1.github")}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {t("projects.project1.info")}
-                {t("projects.project1.name")}
-                <FaGithub className={styles.icon} />
-              </a>
+                ariaLabel={"Link to the project on Github"}
+                text={`${t("projects.project1.info")}`}
+                icon={<FaGithub />}
+              />
             </li>
             <li className={styles.li}>
-              <a
-                className={styles.a}
+              <Link
                 href={t("projects.project1.live")}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {t("projects.project1.info")}
-                {t("projects.project1.name")}
-                <FaExternalLinkAlt className={styles.icon} />
-              </a>
+                ariaLabel={"Link to the project on Github"}
+                text={`${t("projects.project1.info")}`}
+                icon={<FaExternalLinkAlt />}
+              />
             </li>
           </ul>
         </section>
       </main>
-    </section>
+    </>
   );
 }

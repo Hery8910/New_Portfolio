@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./Education.module.css";
+import { Button } from "../Button";
 import { ImHtmlFive2 } from "react-icons/im";
 import { TbBrandCss3 } from "react-icons/tb";
 import { RiJavascriptLine } from "react-icons/ri";
@@ -31,23 +32,17 @@ export function Education() {
   }
 
   return (
-    <section className={styles.section}>
+    <>
       <main className={styles.main}>
-        <h2 className={styles.h2}>{t("education.about")}</h2>
         <p className={styles.p}>{t("education.aboutMessage")}</p>
-        <div className={styles.buttons}>
-          <a
-            className={styles.a}
-            href={t("education.cv.link")}
-            download="Heriberto_Santana_CV.pdf"
-          >
-            {t("education.cv.download")} CV <FaDownload />
-          </a>
+        <div>
           {isOpen ? (
             <div className={styles.showPdf}>
-              <button className={styles.closeButton} onClick={handelClose}>
-                X
-              </button>
+              <Button
+                className={styles.closeButton}
+                label={"X"}
+                onClick={handelClose}
+              />
               <iframe
                 className={styles.iframe}
                 src={t("education.cv.link")}
@@ -56,9 +51,11 @@ export function Education() {
               />
             </div>
           ) : (
-            <button className={styles.showButton} onClick={handelOpen}>
-              {t("education.cv.show")} CV
-            </button>
+            <Button
+            className={styles.button}
+              label={`${t("education.cv.show")} CV`}
+              onClick={handelOpen}
+            />
           )}
         </div>
       </main>
@@ -120,6 +117,6 @@ export function Education() {
           </li>
         </ul>
       </aside>
-    </section>
+    </>
   );
 }

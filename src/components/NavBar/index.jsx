@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Button} from '../Button'
 import { Link } from "react-scroll";
 import { useTranslation } from "react-i18next";
 import { LanguageSwitcher } from "../LanguageSwitcher";
@@ -17,9 +18,8 @@ export function NavBar({ theme, toggleTheme }) {
       <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
       <div className={styles.div}>
         <LanguageSwitcher />
-        <button className={styles.button} onClick={toggleMenu}>
-          <IoMenu />
-        </button>
+        <Button className={styles.button} onClick={toggleMenu} label={<IoMenu />} />
+          
         <ul className={menuOpen ? styles.ul_open : styles.ul_close}>
           <li className={styles.li}>
             <Link

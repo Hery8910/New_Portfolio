@@ -1,18 +1,19 @@
-.section {
+.header {
+  margin: 0;
   display: flex;
   flex-direction: column;
-  align-items: start;
-  color: inherit;
-  margin: 0 3rem;
 }
-.header, .main {
-margin-left: 1rem;
+.main {
+  margin-bottom: 2rem;
 }
 .h2 {
-  margin: 0;
+  margin-bottom: 1rem;
   font-size: 2rem;
-  color: #1e7087;
 }
 .h3 {
+  margin-bottom: 1rem;
   font-size: 1.5rem;
+}
+.p {
+  margin-bottom: .5rem;
 }

@@ -4,9 +4,9 @@ import styles from "./Footer.module.css";
 
 export function Footer() {
   return (
-    <footer className={styles.footer}>
+    <>
       <h2>With ❤️ from Berlin</h2>
-    </footer>
+    </>
 
   )
 }
