@@ -10,14 +10,11 @@ export function Header() {
   return (
     <>
       <aside className={styles.aside}>
-        <picture className={styles.picture}>
-          <source className={styles.img} srcSet="/images/Profil_Movil.webp" media="(max-width: 800px)"/>
           <img
             className={styles.img}
-            src="/images/Profil_Desktop.webp"
+            src="/images/Profil_Movil.webp"
             alt="Profil picture of Heriberto Santana"
           />
-        </picture>
 
       </aside>
       <main className={styles.main}>

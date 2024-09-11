@@ -40,6 +40,7 @@ a {
   text-decoration: none;
 }
 header {
+  width: 100%;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -50,10 +51,33 @@ section {
   margin: 0;
   padding: 0;
 }
+#education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+  margin-bottom: 15rem;
+}
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
+  header {
+    margin-bottom: 18rem;
+  }
   body {
     max-width: 1000px;
     margin: 0 auto;
+  }
+  #education {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    margin: 18rem auto;
+  }
+  #recommendation {
+    display: flex;
+    flex-direction: column;
   }
 }

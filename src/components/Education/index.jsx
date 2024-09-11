@@ -34,6 +34,8 @@ export function Education() {
   return (
     <>
       <main className={styles.main}>
+      <h1 className={styles.h1}>{t("education.about")}</h1>
+
         <p className={styles.p}>{t("education.aboutMessage")}</p>
         <div>
           {isOpen ? (

@@ -26,7 +26,6 @@ export function Projects() {
               <Link
                 href={t("projects.project1.github")}
                 ariaLabel={"Link to the project on Github"}
-                text={`${t("projects.project1.info")}`}
                 icon={<FaGithub />}
               />
             </li>
@@ -34,7 +33,6 @@ export function Projects() {
               <Link
                 href={t("projects.project1.live")}
                 ariaLabel={"Link to the project on Github"}
-                text={`${t("projects.project1.info")}`}
                 icon={<FaExternalLinkAlt />}
               />
             </li>

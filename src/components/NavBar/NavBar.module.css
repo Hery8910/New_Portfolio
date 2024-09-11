@@ -1,6 +1,7 @@
 .nav {
   position: fixed;
   display: flex;
+  gap: 1rem;
   top: 0;
   left: 0;
   padding: 1rem;
@@ -23,25 +24,25 @@
 }
 .ul_open, .ul_close {
   padding: 0;
-  position: fixed;
+  position: absolute;
   z-index: 20;
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  top: 3rem;
-  right: 8rem;
+  top: 4rem;
+  left: 0rem;
   transition: all 0.8s ease-in-out;
   background: #1e708744;
-  border-radius: 8px;
+  border-radius: 0 8px 8px 0;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2.3px);
   -webkit-backdrop-filter: blur(2.3px);
   border: 1px solid #1e708796;
+  border-left: none;
 }
 .ul_close {
   cursor: none;
-  display: hidden;
+  display: none;
   top: 3rem;
   right: -10rem;
 }

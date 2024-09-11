@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Link.module.css'
 
-export function Link({href, ariaLabel, text= "", icon}) {
+export function Link({href, ariaLabel, icon}) {
   return (
     <a
           className={styles.a}
@@ -10,7 +10,7 @@ export function Link({href, ariaLabel, text= "", icon}) {
           rel="noopener noreferrer"
           aria-label={ariaLabel}
         >
-          {text} {icon} 
+           {icon} 
         </a>
   )
 }

@@ -8,7 +8,7 @@ export const GlobalStyles = createGlobalStyle`
 `;
 
 export const lightTheme = {
-  body: '#f6f5f7d5',
+  body: '#e1e4ea',
   text: '#212429',
 };
 

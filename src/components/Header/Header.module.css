@@ -19,7 +19,7 @@
   margin-top: 17rem;
 }
 .h2 {
-  text-shadow: 0 0 6px rgba(0, 0, 0, 0.927);
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.927);
 }
 .div {
   display: flex;
@@ -27,23 +27,21 @@
 }
 
 @media screen and (min-width: 768px) {
-  .section {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .aside {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+ .main {
+  margin-right: 3rem;
+ }
 
   .img {
-    display: block;
-    width: 300px;
-    border-radius: 4px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.711);
-    margin-right: 3rem;
+    width: 60%;
   }
 }
+@media screen and (min-width: 1024px) {
+  .main {
+   margin-right: 15rem;
+  }
+ 
+   .img {
+    margin-left: 6rem;
+     width: 40%;
+   }
+ }

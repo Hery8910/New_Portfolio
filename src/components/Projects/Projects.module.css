@@ -20,9 +20,21 @@
 
 @media screen and (min-width: 1024px) { 
   .img {
+    margin: 0;
     display: block;
-    width: 800px;
+    width: 500px;
     border-radius: 4px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.711);
+  }
+  .main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 10rem;
+  }
+  .ul {
+    margin-top: 2rem;
   }
 }

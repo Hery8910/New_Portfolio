@@ -33,7 +33,6 @@ const App = () => {
           <Projects />
         </section>
         <section id="education">
-          <h1>{t("education.about")}</h1>
           <Education />
         </section>
         <section id="contact">
