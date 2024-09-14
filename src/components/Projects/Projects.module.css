@@ -1,40 +1,77 @@
-.section {
-  margin: 0;
-  margin-top: 3rem;
-}
-.img {
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 3rem;
-  border-radius: 8px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.429);
-  transition: all .5s ease-in-out;
-}
-.ul {
-  padding: 0;
+.main {
   display: flex;
-  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
   margin-bottom: 10rem;
 }
 
+.card {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.description {
+  padding: 1.5rem;
+  color: #bac0cc;
+  border-radius: 8px;
+}
+.h2 {
+  
+  font-size: 2rem;
+  margin: 3rem 0;
+}
+.p {
+  margin-bottom: 2rem;
+}
 
-@media screen and (min-width: 1024px) { 
-  .img {
-    margin: 0;
-    display: block;
-    width: 500px;
-    border-radius: 4px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.711);
-  }
-  .main {
+.img {
+  width: 350px;
+  height: auto;
+}
+
+.navButton {
+  background-color: transparent;
+  color: #1e7087;
+  border: none;
+  padding: 2rem 0.5rem;
+  cursor: pointer;
+  font-size: 3rem;
+  transition: all 0.3s ease-in-out;
+}
+.navButton:hover {
+  transform: scale(110%);
+  color: #2ea7c8;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.ul li {
+  margin-right: 10px;
+}
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 1000px;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 3rem;
-    margin-bottom: 10rem;
+    border-radius: 0;
+    box-shadow: none;
   }
-  .ul {
-    margin-top: 2rem;
+  .description {
+    color: #bac0cc;
+    background-color: transparent;
+    align-self: flex-end;
+  }
+  .img {
+    width: 550px;
   }
 }

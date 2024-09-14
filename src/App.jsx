@@ -36,7 +36,6 @@ const App = () => {
           <Education />
         </section>
         <section id="contact">
-          <h1>{t("cta.message")}</h1>
           <Contact />
         </section>
         <section id="recommendation">

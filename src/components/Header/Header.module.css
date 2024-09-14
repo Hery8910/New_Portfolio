@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 768px) {
  .main {
-  margin-right: 3rem;
+  margin-right: 1rem;
  }
 
   .img {
@@ -37,7 +37,7 @@
 }
 @media screen and (min-width: 1024px) {
   .main {
-   margin-right: 15rem;
+   margin-right: 10rem;
   }
  
    .img {

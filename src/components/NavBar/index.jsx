@@ -16,9 +16,8 @@ export function NavBar({ theme, toggleTheme }) {
   return (
     <nav className={styles.nav}>
       <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
-      <div className={styles.div}>
         <LanguageSwitcher />
-        <Button className={styles.button} onClick={toggleMenu} label={<IoMenu />} />
+        <Button className={styles.button} onClick={toggleMenu}  label={<IoMenu />} />
           
         <ul className={menuOpen ? styles.ul_open : styles.ul_close}>
           <li className={styles.li}>
@@ -77,7 +76,6 @@ export function NavBar({ theme, toggleTheme }) {
             </Link>
           </li>
         </ul>
-      </div>
     </nav>
   );
 }

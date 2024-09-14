@@ -12,7 +12,7 @@ export function Header() {
       <aside className={styles.aside}>
           <img
             className={styles.img}
-            src="/images/Profil_Movil.webp"
+            src="/images/Profil.webp"
             alt="Profil picture of Heriberto Santana"
           />
 

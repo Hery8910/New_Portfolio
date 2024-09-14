@@ -8,7 +8,8 @@ export function Contact() {
   const { t } = useTranslation();
 
   return (
-    <>
+    <main className={styles.main}>
+      <h1>{t("cta.message")}</h1>
       <h2>{t("cta.message2")}</h2>
       <ul className={styles.ul}>
         <li>
@@ -26,6 +27,6 @@ export function Contact() {
           />
         </li>
       </ul>
-    </>
+    </main>
   );
 }

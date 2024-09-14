@@ -10,10 +10,10 @@
     "education": "Education",
     "contact": "Contact",
     "recommendation": "Recommendation"
+    
   },
-  "projects": {
-    "title": "React Guide",
-    "project1": {
+  "projects": [
+    {
       "name": "React Guide",
       "description": "This project is part of the full-stack web development course I participated in. I wanted to compile the knowledge I gained during the course and make it easily and efficiently accessible. The motivation was to create a tool that allows me and other users to access information about React. In this application, you will find component examples with their code, ready to be reused, and relevant information about their use and styling. I hope it is as helpful to you as it has been to me.",
       "image": "/images/ReactGuide.webp",
@@ -21,21 +21,15 @@
       "github": "https://github.com/Hery8910/React-Guide",
       "live": "https://react-guide.onrender.com"
     },
-    "project2": {
-      "name": "Project Two",
-      "description": "A short description of Project Two, highlighting key features and tech stack.",
-      "image": "https://via.placeholder.com/150",
-      "github": "https://github.com/yourusername/project-two",
-      "live": "https://project-two.example.com"
-    },
-    "project3": {
-      "name": "Project Three",
-      "description": "A brief overview of Project Three, explaining its main objectives and technologies used.",
-      "image": "https://via.placeholder.com/150",
-      "github": "https://github.com/yourusername/project-three",
-      "live": "https://project-three.example.com"
+    {
+      "name": "Backend API",
+      "description": "This backend project is a RESTful API created for a Cleaning Service application. It handles user registration, login, email verification, service requests, and profile management. The API integrates JWT authentication, role-based access control, and security measures like data sanitization, rate limiting, and password hashing. Built using Node.js, Express, and MongoDB, the API ensures secure client-server interactions and includes unit testing for key functionalities.",
+      "image": "/images/BackendAPI.webp",
+      "info": "Link to ",
+      "github": "https://github.com/Hery8910/Backend_API",
+      "live": "https://backend-api-1-1ns6.onrender.com/api-docs/"
     }
-  },
+  ],
   "cta": {
     "message": "You need help on your team?",
     "message2": "I can help you!",
@@ -59,7 +53,7 @@
       "title": "Teacher at DCI Digital Carrier Institute GmbH",
       "recommendation": [
         "I am pleased to recommend Heriberto, with whom I have had the pleasure of working for nearly a year. During this time, he has consistently demonstrated exceptional skills, a strong work ethic, and a commitment to personal and academic growth.",
-        "One of the most notable contributions Heriberto made was stepping up as the class tutor. He not only assisted peers with their tasks outside of lessons but also fostered a collaborative learning environment. His ability to communicate complex concepts clearly and effectively motivated classmates to achieve their goals, significantly enhancing the overall classroom experience.", 
+        "One of the most notable contributions Heriberto made was stepping up as the class tutor. He not only assisted peers with their tasks outside of lessons but also fostered a collaborative learning environment. His ability to communicate complex concepts clearly and effectively motivated classmates to achieve their goals, significantly enhancing the overall classroom experience.",
         "Heriberto's curiosity and dedication to learning extend well beyond the classroom. He actively sought out additional resources and opportunities to deepen his understanding of the subject matter. His commitment to tutoring sessions was excellent, as he offered flexible hours throughout the week, accommodating both morning and afternoon schedules to ensure that all students had access to support.",
         "The impact Heriberto has had on our class and the broader learning community is undeniable. His initiative and leadership have not only helped peers succeed but have also inspired a culture of collaboration and mutual support among students.",
         "I wholeheartedly endorse Heriberto for any future endeavors. He possesses the potential for continued success and will undoubtedly make a positive impact wherever he goes. It has been a true pleasure working with him, and I cannot recommend him strongly enough."

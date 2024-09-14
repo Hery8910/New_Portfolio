@@ -11,9 +11,8 @@
     "contact": "Contacto",
     "recommendation": "Recomendación"
   },
-  "projects": {
-    "title": "React Guide",
-    "project1": {
+  "projects": [
+    {
       "name": "React Guide",
       "description": "Este proyecto es parte del curso de desarrollo web full-stack en el que participé. Quería hacer una recopilación de los conocimientos que adquirí en el curso y poder acceder a ellos de forma rápida y eficiente. La motivación fue crear una herramienta que me permita a mí y a otros usuarios acceder a información sobre React. En esta aplicación encontrarán ejemplos de componentes con su código, listos para ser reutilizados, y con información relevante sobre su uso y sus estilos. Espero que les sea de ayuda tanto como a mí.",
       "image": "/images/ReactGuide.webp",
@@ -21,21 +20,15 @@
       "github": "https://github.com/Hery8910/React-Guide",
       "live": "https://react-guide.onrender.com"
     },
-    "project2": {
-      "name": "Proyecto Dos",
-      "description": "Una breve descripción del Proyecto Dos, destacando características clave y pila tecnológica.",
-      "image": "https://via.placeholder.com/150",
-      "github": "https://github.com/tuusuario/proyecto-dos",
-      "live": "https://proyecto-dos.example.com"
-    },
-    "project3": {
-      "name": "Proyecto Tres",
-      "description": "Una breve descripción del Proyecto Tres, explicando sus principales objetivos y tecnologías utilizadas.",
-      "image": "https://via.placeholder.com/150",
-      "github": "https://github.com/tuusuario/proyecto-tres",
-      "live": "https://proyecto-tres.example.com"
+    {
+      "name": "API Backend",
+      "description": "Este proyecto de backend es una API RESTful creada para una aplicación de servicio de limpieza. Maneja el registro de usuarios, inicio de sesión, verificación por correo electrónico, solicitudes de servicio y gestión de perfiles. La API integra autenticación JWT, control de acceso basado en roles, y medidas de seguridad como sanitización de datos, limitación de velocidad y hash de contraseñas. Desarrollada con Node.js, Express y MongoDB, la API garantiza interacciones seguras y pruebas unitarias para funcionalidades clave.",
+      "image": "/images/ReactGuide.webp",
+      "info": "Enlace a ",
+      "github": "https://github.com/Hery8910/Backend_API",
+      "live": "https://backend-api-1-1ns6.onrender.com/api-docs/"
     }
-  },
+  ],
   "cta": {
     "message": "¿Necesitas ayuda en tu equipo?",
     "message2": "¡Yo puedo ayudarte!",
@@ -51,22 +44,20 @@
       "show": "Abrir",
       "link": "./cv/Heriberto_Santana_Solsona_ES.pdf"
     }
-  
   },
-"recommendations": {
-  "recommendation1": {
-    "name": "Matteo Sette",
-    "title": "Profesor en DCI Digital Carrier Institute GmbH",
-    "recommendation": [
-      "Me complace recomendar a Heriberto, con quien he tenido el placer de trabajar durante casi un año. Durante este tiempo, ha demostrado consistentemente habilidades excepcionales, una sólida ética de trabajo y un compromiso con el crecimiento personal y académico.",
-      "Una de las contribuciones más notables de Heriberto fue asumir el rol de tutor de la clase. No solo asistió a sus compañeros con sus tareas fuera de las lecciones, sino que también fomentó un ambiente de aprendizaje colaborativo. Su habilidad para comunicar conceptos complejos de manera clara y efectiva motivó a sus compañeros a alcanzar sus objetivos, mejorando significativamente la experiencia en el aula.",
-      "La curiosidad y dedicación de Heriberto al aprendizaje se extienden mucho más allá del aula. Buscó activamente recursos adicionales y oportunidades para profundizar su comprensión de los temas. Su compromiso con las sesiones de tutoría fue excelente, ofreciendo horarios flexibles a lo largo de la semana, acomodando tanto mañanas como tardes para asegurar que todos los estudiantes tuvieran acceso al apoyo.",
-      "El impacto que Heriberto ha tenido en nuestra clase y en la comunidad de aprendizaje en general es innegable. Su iniciativa y liderazgo no solo han ayudado a sus compañeros a tener éxito, sino que también han inspirado una cultura de colaboración y apoyo mutuo entre los estudiantes.",
-      "Recomiendo encarecidamente a Heriberto para cualquier proyecto futuro. Posee el potencial para continuar teniendo éxito y sin duda tendrá un impacto positivo donde quiera que vaya. Ha sido un verdadero placer trabajar con él, y no puedo recomendarlo lo suficiente."
-    ]
-  },
-
-    "recommendation2":{
+  "recommendations": {
+    "recommendation1": {
+      "name": "Matteo Sette",
+      "title": "Profesor en DCI Digital Carrier Institute GmbH",
+      "recommendation": [
+        "Me complace recomendar a Heriberto, con quien he tenido el placer de trabajar durante casi un año. Durante este tiempo, ha demostrado consistentemente habilidades excepcionales, una sólida ética de trabajo y un compromiso con el crecimiento personal y académico.",
+        "Una de las contribuciones más notables de Heriberto fue asumir el rol de tutor de la clase. No solo asistió a sus compañeros con sus tareas fuera de las lecciones, sino que también fomentó un ambiente de aprendizaje colaborativo. Su habilidad para comunicar conceptos complejos de manera clara y efectiva motivó a sus compañeros a alcanzar sus objetivos, mejorando significativamente la experiencia en el aula.",
+        "La curiosidad y dedicación de Heriberto al aprendizaje se extienden mucho más allá del aula. Buscó activamente recursos adicionales y oportunidades para profundizar su comprensión de los temas. Su compromiso con las sesiones de tutoría fue excelente, ofreciendo horarios flexibles a lo largo de la semana, acomodando tanto mañanas como tardes para asegurar que todos los estudiantes tuvieran acceso al apoyo.",
+        "El impacto que Heriberto ha tenido en nuestra clase y en la comunidad de aprendizaje en general es innegable. Su iniciativa y liderazgo no solo han ayudado a sus compañeros a tener éxito, sino que también han inspirado una cultura de colaboración y apoyo mutuo entre los estudiantes.",
+        "Recomiendo encarecidamente a Heriberto para cualquier proyecto futuro. Posee el potencial para continuar teniendo éxito y sin duda tendrá un impacto positivo donde quiera que vaya. Ha sido un verdadero placer trabajar con él, y no puedo recomendarlo lo suficiente."
+      ]
+    },
+    "recommendation2": {
       "name": "Zakaria Hamdan",
       "title": "Profesor en el DCI",
       "recommendation": []

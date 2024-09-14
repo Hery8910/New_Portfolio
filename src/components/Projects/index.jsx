@@ -1,44 +1,66 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "../Link";
-import { FaGithub } from "react-icons/fa";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import { Button } from "react-scroll";
+import { GrNext } from "react-icons/gr";
+import { GrPrevious } from "react-icons/gr";
 import styles from "./Projects.module.css";
 
 export function Projects() {
   const { t } = useTranslation();
+  const projects = t("projects", { returnObjects: true });
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
+  };
+
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? projects.length - 1 : prevIndex - 1
+    );
+  };
 
   return (
-    <>
-      <main className={styles.main}>
-        <section className={styles.img_section}>
+    <main className={styles.main}>
+      <section className={styles.card}>
+        <div>
+          <h2 className={styles.h2}>{projects[currentIndex].name}</h2>
           <img
             className={styles.img}
-            src={t("projects.project1.image")}
-            alt={t("projects.project1.name")}
+            src={projects[currentIndex].image}
+            alt={projects[currentIndex].name}
           />
-        </section>
-        <section className={styles.section}>
-          <h2 className={styles.h2}>{t("projects.project1.name")}</h2>
-          <p className={styles.p}>{t("projects.project1.description")}</p>
+        </div>
+        <div className={styles.description}>
+          <p className={styles.p}>{projects[currentIndex].description}</p>
           <ul className={styles.ul}>
-            <li className={styles.li}>
+            <li>
               <Link
-                href={t("projects.project1.github")}
+                href={projects[currentIndex].github}
                 ariaLabel={"Link to the project on Github"}
                 icon={<FaGithub />}
               />
             </li>
-            <li className={styles.li}>
+            <li>
               <Link
-                href={t("projects.project1.live")}
-                ariaLabel={"Link to the project on Github"}
+                href={projects[currentIndex].live}
+                ariaLabel={"Link to the live project"}
                 icon={<FaExternalLinkAlt />}
               />
             </li>
           </ul>
-        </section>
-      </main>
-    </>
+        </div>
+      </section>
+      <div>
+        <Button className={styles.navButton} onClick={handlePrev}>
+          <GrPrevious />
+        </Button>
+        <Button className={styles.navButton} onClick={handleNext}>
+          <GrNext />
+        </Button>
+      </div>
+    </main>
   );
 }
