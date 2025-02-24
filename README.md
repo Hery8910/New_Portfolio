@@ -25,9 +25,3 @@ This project is my personal portfolio, designed to showcase my skills, projects,
 - **Version Control & Deployment**:
   - **Git & GitHub**
   - **Vercel**
-
-## How to Run the Project
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Hery8910/New_Portfolio.git
