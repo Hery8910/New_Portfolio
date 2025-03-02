@@ -1,6 +1,8 @@
 .Button {
+  width: max-content;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: calc(14px + 0.4dvw);
   border-radius: 4px;
   padding: 0.4rem;
