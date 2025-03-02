@@ -1,6 +1,6 @@
-import React from 'react'
 import styles from './Link.module.css'
 
+// eslint-disable-next-line react/prop-types
 export function Link({href, ariaLabel, icon}) {
   return (
     <a

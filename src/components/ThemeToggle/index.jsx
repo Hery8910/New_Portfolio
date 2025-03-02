@@ -9,6 +9,7 @@ export function ThemeToggle({ toggleTheme, className }) {
     <>
       <Switch
       className={`${styles.switch} ${className}`}
+      aria-label="Theme toggle"
       defaultSelected
       onChange={toggleTheme}
       size="lg"

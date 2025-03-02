@@ -76,7 +76,7 @@ export function NavBar({ theme, toggleTheme }) {
             smooth={true}
             duration={1000}
             className={styles.a}
-            aria-label="Link to home-section"
+            aria-label={"Link to home-section"}
             onClick={isMobile ? closeMenu : null}
           >
             {t("nav.home")}
@@ -88,7 +88,7 @@ export function NavBar({ theme, toggleTheme }) {
             smooth={true}
             duration={1000}
             className={styles.a}
-            aria-label="Link to projects-section"
+            aria-label={"Link to projects-section"}
             onClick={isMobile ? closeMenu : null}
           >
             {t("nav.projects")}
@@ -100,7 +100,7 @@ export function NavBar({ theme, toggleTheme }) {
             smooth={true}
             duration={1000}
             className={styles.a}
-            aria-label="Link to about-section"
+            aria-label={"Link to about-section"}
             onClick={isMobile ? closeMenu : null}
           >
             {t("nav.about")}
@@ -112,7 +112,7 @@ export function NavBar({ theme, toggleTheme }) {
             smooth={true}
             duration={1000}
             className={styles.a}
-            aria-label="Link to contact-section"
+            aria-label={"Link to contact-section"}
             onClick={isMobile ? closeMenu : null}
           >
             {t("nav.contact")}
@@ -123,7 +123,7 @@ export function NavBar({ theme, toggleTheme }) {
         <Button
           className={`${scrolled ? styles.scrolled : ""}`}
           onClick={toggleMenu}
-          aria-label="Toggle navigation menu"
+          aria-label={"Toggle navigation menu"}
           aria-expanded={menuOpen}
           label={<CgMenuRight />}
         />
