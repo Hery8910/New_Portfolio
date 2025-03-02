@@ -84,8 +84,21 @@ export function NavBar({ theme, toggleTheme }) {
             duration={1000}
             className={styles.a}
             aria-label="Link to projects-section"
+            onClick={isMobile ? closeMenu : null}
           >
             {t("nav.projects")}
+          </Link>
+        </li>
+        <li className={styles.li}>
+          <Link
+            to="education"
+            smooth={true}
+            duration={1000}
+            className={styles.a}
+            aria-label="Link to about-section"
+            onClick={isMobile ? closeMenu : null}
+          >
+            {t("nav.about")}
           </Link>
         </li>
         <li className={styles.li}>
@@ -95,21 +108,12 @@ export function NavBar({ theme, toggleTheme }) {
             duration={1000}
             className={styles.a}
             aria-label="Link to contact-section"
+            onClick={isMobile ? closeMenu : null}
           >
             {t("nav.contact")}
           </Link>
         </li>
-        <li className={styles.li}>
-          <Link
-            to="education"
-            smooth={true}
-            duration={1000}
-            className={styles.a}
-            aria-label="Link to education-section"
-          >
-            {t("nav.education")}
-          </Link>
-        </li>
+        
       </ul>
       {isMobile && (
         <Button

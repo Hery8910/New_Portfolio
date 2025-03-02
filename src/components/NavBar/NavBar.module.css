@@ -20,11 +20,10 @@
   gap: 1rem;
 }
 .ul {
+  width: 600px;
   display: flex;
   border-radius: 8px;
   opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
   list-style: none;
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
