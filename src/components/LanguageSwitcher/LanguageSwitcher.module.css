@@ -6,11 +6,11 @@
   border-radius: 4px;
   padding: 0.5rem;
   background-color: transparent;
-  border: 1px solid #1e70878c;
-  box-shadow: 1px 1px 3px #1e70878c;
+  border: 1px solid #65c854a5;
+  box-shadow: 0 0 8px #65c85482;
 }
 .select:hover {
-  background-color:  #1e70878c;
+  background-color: #65c854;
 }
 .select:focus {
   outline: none;

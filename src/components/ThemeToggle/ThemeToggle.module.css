@@ -3,15 +3,17 @@
   height: 1.4rem;
   display: flex;
   background-color: transparent;
-  border: 1px solid #1e70878c;
-  box-shadow: 1px 1px 3px #1e70878c;
+  border: 1px solid #65c854a5;
+  box-shadow: 0 0 8px #65c85482;
   border-radius: 10px;
 }
 .icon_sun {
+  color: #f6d039e3;
   margin: .2rem;
   cursor: pointer;
 }
 .icon_moon {
+  color: #313131e3;
   margin: .2rem;
   cursor: pointer;
   margin-left: 1.8rem;

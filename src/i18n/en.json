@@ -7,64 +7,171 @@
   "nav": {
     "home": "Home",
     "projects": "Projects",
-    "education": "Education",
-    "contact": "Contact",
-    "recommendation": "Recommendation"
-    
+    "about": "About me",
+    "contact": "Contact"
   },
   "projects": [
     {
-      "name": "React Guide",
-      "description": "This project is part of the full-stack web development course I participated in. I wanted to compile the knowledge I gained during the course and make it easily and efficiently accessible. The motivation was to create a tool that allows me and other users to access information about React. In this application, you will find component examples with their code, ready to be reused, and relevant information about their use and styling. I hope it is as helpful to you as it has been to me.",
-      "image": "/images/ReactGuide.webp",
+      "name": "Awesome CL - React Component Library",
+      "shortDescription": "A reusable React component library designed to optimize development and improve efficiency in building interfaces. A collaborative project developed in 7 weeks as part of the Full Stack Developer course.",
+      "moreInfo": "More information",
+      "descriptionTitle": "Detailed Information",
+      "description": "Awesome CL is a React component library created to provide a collection of reusable elements that streamline web application development. This project was developed as part of a Full Stack Developer course by a team of six members over seven weeks.The idea arose from the need to consolidate the knowledge gained about React by applying principles of reusability, modularity, and interactive documentation. The library enables developers to integrate components seamlessly, ensuring a consistent and efficient experience in their projects.",
+      "problemTitle": "Problem It Solves",
+      "problem": "Building interfaces from scratch can be tedious and repetitive. This library helps reduce development time by providing ready-to-use and well-documented components, making integration into any React project easier.",
+      "image": "/images/awesomecl.webp",
+      "myRol": {
+        "title": "My Role in the Project",
+        "list": [
+          "Designed the project architecture, ensuring a scalable and modular structure.",
+          "Developed the data storage logic and how components are dynamically rendered in the documentation.",
+          "Implemented an interactive system that displays real-time examples of each component, making them easier to learn and use."
+        ]
+      },
+      "technologies": {
+        "title": "Technologies Used",
+        "list": [
+          "React",
+          "Vite",
+          "Github",
+          "SCSS",
+          "Figma",
+          "Canva"
+        ]
+      },
+      "challenges": {
+        "title": "Challenges & Learnings",
+        "list": [
+          "Coordinating teamwork and defining a clear architecture to ensure scalability.",
+          "Implementing interactive documentation that allows users to test components without installing the library.",
+          "Optimizing component loading and rendering to improve performance."
+        ]
+      },
       "info": "Link to ",
-      "github": "https://github.com/Hery8910/React-Guide",
-      "live": "https://react-guide.onrender.com"
+      "github": "https://github.com/Team-Collaborators/Awesome-CL",
+      "live": "https://www.awesome-cl.live/"
     },
     {
-      "name": "Backend API",
-      "description": "This backend project is a RESTful API created for a Cleaning Service application. It handles user registration, login, email verification, service requests, and profile management. The API integrates JWT authentication, role-based access control, and security measures like data sanitization, rate limiting, and password hashing. Built using Node.js, Express, and MongoDB, the API ensures secure client-server interactions and includes unit testing for key functionalities.",
-      "image": "/images/BackendAPI.webp",
-      "info": "Link to ",
-      "github": "https://github.com/Hery8910/Backend_API",
-      "live": "https://backend-api-1-1ns6.onrender.com/api-docs/"
+      "name": "HM Service - Informational Website for a Service Company",
+      "shortDescription": "Professional website for a company offering moving, home repair, and furniture assembly services. Includes full branding, UX/UI design, and development, with corporate email integration.",
+      "moreInfo": "More information",
+      "descriptionTitle": "Detailed Information",
+      "description": "HM Service is an informational website created for a newly founded company offering moving, home repair, and furniture assembly services, among others. The goal was to provide a professional and visually appealing online presence that allows potential clients to learn about the company’s services and contact the business easily. Beyond the website development, I was responsible for the complete branding, designing the logo and its different versions. I also configured corporate emails using Zoho Mail to ensure a professional and organized communication system.",
+      "problemTitle": "Problem It Solves",
+      "problem": "A new business needs credibility and an effective way to connect with its customers. This website helps the company present itself professionally and provides clear, accessible information about its services, along with direct contact options.",
+      "image": "/images/hmService.webp",
+      "myRol": {
+        "title": "My Role in the Project",
+        "list": [
+          "Full branding creation, including logo design.",
+          "UX/UI design of the entire website.",
+          "Website development and optimization.",
+          "Configuration and management of corporate emails (info@, noreply@, contact@ using Zoho Mail).",
+          "Project deployment on Vercel."
+        ]
+      },
+      "technologies": {
+        "title": "Technologies Used",
+        "list": [
+          "React",
+          "Module CSS",
+          "Zoho Mail",
+          "Vercel",
+          "Figma",
+          "Canva"
+        ]
+      },
+      "challenges": {
+        "title": "Challenges & Learnings",
+        "list": [
+          "Creating an attractive and professional design that reflects the company’s identity.",
+          "Optimizing the website’s structure for better navigation and user experience.",
+          "Integrating corporate emails to enhance client communication."
+        ]
+      },
+      "info": "Link to the live site:",
+      "github": "",
+      "live": "https://hm-service.pro/"
+    },
+    {
+      "name": "Havenova - PWA for Service Request and Users Management",
+      "shortDescription": "A web platform for managing service requests, reservations, and customer interactions for a home services business. Includes automated email notifications, a dynamic dashboard, and a seamless booking experience.",
+      "moreInfo": "More information",
+      "descriptionTitle": "Detailed Information",
+      "description": "Havenova is a web-based platform designed to streamline the management of service requests and customer interactions for a home services company. The platform allows users to submit service requests, receive confirmations, and manage appointments seamlessly. The backend includes a robust email system powered by SendGrid, sending automated notifications for verification, password resets, service confirmations, promotions, and blog updates. The project is currently in development, with plans to integrate an advanced admin dashboard for service management and customer analytics.",
+      "problemTitle": "Problem It Solves",
+      "problem": "Many small service businesses struggle with efficiently handling customer inquiries, service requests, and appointment scheduling. This platform provides a structured system to manage these processes efficiently while improving customer communication through automated emails.",
+      "image": "/images/havenova.webp",
+      "myRol": {
+        "title": "My Role in the Project",
+        "list": [
+          "Full-stack development, including frontend and backend architecture.",
+          "Integration of automated email notifications using SendGrid.",
+          "Implementation of authentication and account verification systems.",
+          "Development of a service request and appointment scheduling system.",
+          "Design and optimization of a structured database for user and service management.",
+          "Creation of a responsive and user-friendly UI for seamless customer interactions."
+        ]
+      },
+      "technologies": {
+        "title": "Technologies Used",
+        "list": [
+          "Next.js",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "SendGrid",
+          "Zoho Mail",
+          "Module CSS",
+          "Vercel",
+          "Figma"
+        ]
+      },
+      "challenges": {
+        "title": "Challenges & Learnings",
+        "list": [
+          "Designing a scalable system to handle various service requests and interactions.",
+          "Implementing a secure authentication system with email verification.",
+          "Ensuring reliable email delivery for transactional and promotional emails.",
+          "Developing a flexible and modular backend to support future feature expansions."
+        ]
+      },
+      "info": "The project is currently under development and will be updated with new features.",
+      "github": "",
+      "live": ""
     }
   ],
   "cta": {
     "message": "You need help on your team?",
     "message2": "I can help you!",
-    "email": "herysantana@gmail.com",
+    "email": "contact@heribertosantana.com",
     "linkedin": "https://www.linkedin.com/in/heriberto-santana-solsona/"
   },
-  "education": {
+  "about": {
     "skills": "Skills",
-    "about": "About me.",
-    "aboutMessage": "In 2023, I decided to face new professional challenges and explore new horizons. During an orientation course at DCI, I discovered the fascinating world of web development, which inspired me to pursue a career as a full-stack web developer. This path has allowed me to be creative again and tackle problems from innovative perspectives. Throughout the course, I have expanded my knowledge of building web applications, gaining a solid understanding of their technical requirements. Additionally, I was selected to be part of the DCI tutoring program, where I had the opportunity to support my classmates in their studies and projects. This experience not only allowed me to collaborate with exceptional people but also to learn from them and enhance my interpersonal skills. For more information about my journey, please see my CV.",
+    "about": "About me",
+    "aboutMessage": "In 2023, I decided to face new professional challenges and explore new horizons. During an orientation course at DCI, I discovered the fascinating world of web development, which inspired me to pursue a career as a full-stack web developer. This path has allowed me to be creative again and tackle problems from innovative perspectives. Throughout the course, I have expanded my knowledge of building web applications, gaining a solid understanding of their technical requirements. Additionally, I was selected to be part of the DCI tutoring program, where I had the opportunity to support my classmates in their studies and projects. This experience not only allowed me to collaborate with exceptional people but also to learn from them and enhance my interpersonal skills.",
     "cv": {
       "download": "Download",
       "show": "Open",
       "link": "./cv/Heriberto_Santana_Solsona_EN.pdf"
     }
   },
-  "recommendations": {
-    "title": "Recommendation",
-    "recommendation1": {
-      "name": "Matteo Sette",
-      "title": "Teacher at DCI Digital Carrier Institute GmbH",
-      "recommendation": [
-        "I am pleased to recommend Heriberto, with whom I have had the pleasure of working for nearly a year. During this time, he has consistently demonstrated exceptional skills, a strong work ethic, and a commitment to personal and academic growth.",
-        "One of the most notable contributions Heriberto made was stepping up as the class tutor. He not only assisted peers with their tasks outside of lessons but also fostered a collaborative learning environment. His ability to communicate complex concepts clearly and effectively motivated classmates to achieve their goals, significantly enhancing the overall classroom experience.",
-        "Heriberto's curiosity and dedication to learning extend well beyond the classroom. He actively sought out additional resources and opportunities to deepen his understanding of the subject matter. His commitment to tutoring sessions was excellent, as he offered flexible hours throughout the week, accommodating both morning and afternoon schedules to ensure that all students had access to support.",
-        "The impact Heriberto has had on our class and the broader learning community is undeniable. His initiative and leadership have not only helped peers succeed but have also inspired a culture of collaboration and mutual support among students.",
-        "I wholeheartedly endorse Heriberto for any future endeavors. He possesses the potential for continued success and will undoubtedly make a positive impact wherever he goes. It has been a true pleasure working with him, and I cannot recommend him strongly enough."
-      ]
+  "form": {
+    "message": {
+      "title": "Thank you very much for getting in touch.",
+      "description": "I will respond as soon as possible.",
+      "message": "Message sent successfully"
     },
-    "recommendation2": {
-      "name": "Zakaria Hamdan",
-      "title": "Teacher at DCI Digital Carrier Institute GmbH",
-      "recommendation": []
-    }
-  },
+    "name": "Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "comment": "Message",
+    "submit": "Send"
+}
+,
   "footer": {
     "message": "With ❤️ from Berlin"
   }

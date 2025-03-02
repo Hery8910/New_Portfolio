@@ -1,16 +1,15 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./Education.module.css";
 import { Button } from "../Button";
 import { ImHtmlFive2 } from "react-icons/im";
 import { TbBrandCss3 } from "react-icons/tb";
 import { RiJavascriptLine } from "react-icons/ri";
-import { FaDownload, FaReact } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import { FaSass } from "react-icons/fa";
 import { FaLinux } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
 import { SiMongodb } from "react-icons/si";
-import { SiMysql } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa6";
 import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -20,6 +19,8 @@ import { RiNextjsFill } from "react-icons/ri";
 import { SiCanva } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
 import { SiVisualstudio } from "react-icons/si";
+import { IoClose } from "react-icons/io5";
+
 
 export function Education() {
   const { t } = useTranslation();
@@ -32,93 +33,87 @@ export function Education() {
   }
 
   return (
-    <>
-      <main className={styles.main}>
-      <h1 className={styles.h1}>{t("education.about")}</h1>
-
-        <p className={styles.p}>{t("education.aboutMessage")}</p>
+    <main className={styles.main}>
+      <header className={styles.header}>
+        <h2 className={styles.h2}>{t("about.about")}</h2>
+        <p className={styles.p}>{t("about.aboutMessage")}</p>
         <div>
           {isOpen ? (
             <div className={styles.showPdf}>
               <Button
                 className={styles.closeButton}
-                label={"X"}
+                label={<IoClose />}
                 onClick={handelClose}
               />
               <iframe
                 className={styles.iframe}
-                src={t("education.cv.link")}
+                src={t("about.cv.link")}
                 width="110%"
                 height="100%"
               />
             </div>
           ) : (
             <Button
-            className={styles.button}
-              label={`${t("education.cv.show")} CV`}
+              className={styles.button}
+              label={`${t("about.cv.show")} CV`}
               onClick={handelOpen}
             />
           )}
         </div>
-      </main>
-      <aside>
-        <ul className={styles.ul}>
-          <li>
-            <ImHtmlFive2 />
-          </li>
-          <li>
-            <TbBrandCss3 />
-          </li>
-          <li>
-            <RiJavascriptLine />
-          </li>
-          <li>
-            <FaReact />
-          </li>
-          <li>
-            <FaSass />
-          </li>
-          <li>
-            <FaLinux />
-          </li>
-          <li>
-            <FaNodeJs />
-          </li>
-          <li>
-            <SiMongodb />
-          </li>
-          <li>
-            <SiMysql />
-          </li>
-          <li>
-            <FaBootstrap />
-          </li>
-          <li>
-            <FaGitAlt />
-          </li>
-          <li>
-            <IoLogoVercel />
-          </li>
-          <li>
-            <FaGithub />
-          </li>
-          <li>
-            <SiVite />
-          </li>
-          <li>
-            <RiNextjsFill />
-          </li>
-          <li>
-            <SiCanva />
-          </li>
-          <li>
-            <FaFigma />
-          </li>
-          <li>
-            <SiVisualstudio />
-          </li>
-        </ul>
-      </aside>
-    </>
+      </header>
+      <ul className={styles.ul}>
+        <li>
+          <ImHtmlFive2 />
+        </li>
+        <li>
+          <TbBrandCss3 />
+        </li>
+        <li>
+          <RiJavascriptLine />
+        </li>
+        <li>
+          <FaReact />
+        </li>
+        <li>
+          <FaSass />
+        </li>
+        <li>
+          <FaLinux />
+        </li>
+        <li>
+          <FaNodeJs />
+        </li>
+        <li>
+          <SiMongodb />
+        </li>
+        <li>
+          <FaBootstrap />
+        </li>
+        <li>
+          <FaGitAlt />
+        </li>
+        <li>
+          <IoLogoVercel />
+        </li>
+        <li>
+          <FaGithub />
+        </li>
+        <li>
+          <SiVite />
+        </li>
+        <li>
+          <RiNextjsFill />
+        </li>
+        <li>
+          <SiCanva />
+        </li>
+        <li>
+          <FaFigma />
+        </li>
+        <li>
+          <SiVisualstudio />
+        </li>
+      </ul>
+    </main>
   );
 }

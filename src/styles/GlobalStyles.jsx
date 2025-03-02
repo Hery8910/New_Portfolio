@@ -1,18 +1,18 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
-  body {
+  :root {
     background-color: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
   }
 `;
 
 export const lightTheme = {
-  body: '#e1e4ea',
-  text: '#212429',
+  body: "#e1e4ea",
+  text: "#051928",
 };
 
 export const darkTheme = {
-  body: '#212429',
-  text: '#f6f5f7d5',
+  body: "#051928",
+  text: "#f6f5f7d5",
 };

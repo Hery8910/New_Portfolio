@@ -1,68 +1,178 @@
 {
   "header": {
     "name": "Heriberto Santana",
-    "greeting": "Hello, mein Name ist",
+    "greeting": "Hallo, mein Name ist",
     "description": "Full-Stack-Entwickler."
   },
   "nav": {
     "home": "Home",
     "projects": "Projekte",
-    "education": "Bildung",
-    "contact": "Kontakt",
-    "recommendation": "Empfehlung"
+    "about": "Über mich",
+    "contact": "Kontakt"
   },
   "projects": [
     {
-      "name": "React Guide",
-      "description": "Dieses Projekt ist Teil des Full-Stack-Webentwicklungskurses, an dem ich teilgenommen habe. Ich wollte das Wissen, das ich im Kurs erworben habe, zusammenstellen und es schnell und effizient zugänglich machen. Die Motivation war, ein Werkzeug zu schaffen, das mir und anderen Nutzern den Zugriff auf Informationen über React ermöglicht. In dieser Anwendung finden Sie Beispielkomponenten mit ihrem Code, die wiederverwendet werden können, sowie relevante Informationen zu ihrer Verwendung und Gestaltung. Ich hoffe, es ist Ihnen genauso hilfreich wie mir.",
-      "image": "/images/ReactGuide.webp",
+      "name": "Awesome CL - React-Komponentenbibliothek",
+      "shortDescription": "Eine wiederverwendbare React-Komponentenbibliothek zur Optimierung der Entwicklung und Verbesserung der Effizienz beim Erstellen von Benutzeroberflächen. Ein kollaboratives Projekt, das in 7 Wochen als Teil des Full-Stack-Entwicklerkurses entwickelt wurde.",
+      "moreInfo": "Weitere Informationen",
+      "descriptionTitle": "Detaillierte Informationen",
+      "description": "Awesome CL ist eine React-Komponentenbibliothek, die eine Sammlung wiederverwendbarer Elemente bereitstellt, um die Webentwicklung zu optimieren. Dieses Projekt wurde im Rahmen eines Full-Stack-Entwicklerkurses von einem Team aus sechs Mitgliedern in sieben Wochen entwickelt. Die Idee entstand aus der Notwendigkeit, die erlernten Konzepte über React zu festigen, indem Prinzipien der Wiederverwendbarkeit, Modularität und interaktiven Dokumentation angewendet wurden. Die Bibliothek ermöglicht Entwicklern eine nahtlose Integration von Komponenten und sorgt für eine konsistente und effiziente Benutzererfahrung.",
+      "problemTitle": "Das Problem, das es löst",
+      "problem": "Benutzeroberflächen von Grund auf zu erstellen, kann mühsam und zeitaufwändig sein. Diese Bibliothek reduziert die Entwicklungszeit, indem sie gebrauchsfertige und gut dokumentierte Komponenten bereitstellt, die sich problemlos in jedes React-Projekt integrieren lassen.",
+      "image": "/images/awesomecl.webp",
+      "myRol": {
+        "title": "Meine Rolle im Projekt",
+        "list": [
+          "Entwurf der Projektarchitektur, um eine skalierbare und modulare Struktur zu gewährleisten.",
+          "Entwicklung der Datenlogik und der dynamischen Darstellung der Komponenten in der Dokumentation.",
+          "Implementierung eines interaktiven Systems, das Echtzeitbeispiele für jede Komponente anzeigt und deren Nutzung erleichtert."
+        ]
+      },
+      "technologies": {
+        "title": "Verwendete Technologien",
+        "list": [
+          "React",
+          "Vite",
+          "Github",
+          "SCSS",
+          "Figma",
+          "Canva"
+        ]
+      },
+      "challenges": {
+        "title": "Herausforderungen & Erkenntnisse",
+        "list": [
+          "Koordinierung der Teamarbeit und Definition einer klaren Architektur zur Sicherstellung der Skalierbarkeit.",
+          "Implementierung einer interaktiven Dokumentation, die es den Nutzern ermöglicht, Komponenten ohne Installation der Bibliothek zu testen.",
+          "Optimierung der Komponentenladung und -darstellung zur Leistungssteigerung."
+        ]
+      },
       "info": "Link zu ",
-      "github": "https://github.com/Hery8910/React-Guide",
-      "live": "https://react-guide.onrender.com"
+      "github": "https://github.com/Team-Collaborators/Awesome-CL",
+      "live": "https://www.awesome-cl.live/"
     },
     {
-      "name": "Backend-API",
-      "description": "Dieses Backend-Projekt ist eine RESTful API, die für eine Reinigungsdienst-Anwendung entwickelt wurde. Es verwaltet die Registrierung von Benutzern, das Anmelden, die E-Mail-Verifizierung, Serviceanfragen und das Profilmanagement. Die API integriert JWT-Authentifizierung, rollenbasierte Zugriffskontrolle und Sicherheitsmaßnahmen wie Datenbereinigung, Ratenbegrenzung und Passwort-Hashing. Mit Node.js, Express und MongoDB entwickelt, gewährleistet die API sichere Client-Server-Interaktionen und enthält Komponententests für wichtige Funktionen.",
-      "image": "/images/ReactGuide.webp",
-      "info": "Link zu ",
-      "github": "https://github.com/Hery8910/Backend_API",
-      "live": "https://backend-api-1-1ns6.onrender.com/api-docs/"
+      "name": "HM Service - Informationswebsite für ein Dienstleistungsunternehmen",
+      "shortDescription": "Professionelle Website für ein Unternehmen, das Umzugs-, Reparatur- und Möbelmontageservices anbietet. Enthält vollständiges Branding, UX/UI-Design und Entwicklung sowie die Integration von Geschäftsemails.",
+      "moreInfo": "Weitere Informationen",
+      "descriptionTitle": "Detaillierte Informationen",
+      "description": "HM Service ist eine Informationswebsite für ein neu gegründetes Unternehmen, das Umzugs-, Reparatur- und Möbelmontageservices anbietet. Ziel war es, eine professionelle und visuell ansprechende Online-Präsenz zu schaffen, die potenziellen Kunden ermöglicht, sich über die angebotenen Dienstleistungen zu informieren und das Unternehmen einfach zu kontaktieren. Neben der Entwicklung der Website war ich auch für das Branding verantwortlich, einschließlich der Gestaltung des Logos in verschiedenen Versionen. Außerdem habe ich Geschäftsemails mit Zoho Mail eingerichtet, um eine professionelle und organisierte Kommunikation sicherzustellen.",
+      "problemTitle": "Das Problem, das es löst",
+      "problem": "Ein neues Unternehmen benötigt Glaubwürdigkeit und eine effektive Möglichkeit, mit seinen Kunden in Kontakt zu treten. Diese Website hilft dem Unternehmen, sich professionell zu präsentieren und bietet klare, zugängliche Informationen über seine Dienstleistungen sowie direkte Kontaktmöglichkeiten.",
+      "image": "/images/hmService.webp",
+      "myRol": {
+        "title": "Meine Rolle im Projekt",
+        "list": [
+          "Komplette Markenentwicklung, einschließlich Logodesign.",
+          "UX/UI-Design der gesamten Website.",
+          "Entwicklung und Optimierung der Website.",
+          "Konfiguration und Verwaltung von Geschäftsemails (info@, noreply@, contact@ mit Zoho Mail).",
+          "Bereitstellung des Projekts auf Vercel."
+        ]
+      },
+      "technologies": {
+        "title": "Verwendete Technologien",
+        "list": [
+          "React",
+          "Module CSS",
+          "Zoho Mail",
+          "Vercel",
+          "Figma",
+          "Canva"
+        ]
+      },
+      "challenges": {
+        "title": "Herausforderungen & Erkenntnisse",
+        "list": [
+          "Erstellung eines ansprechenden und professionellen Designs, das die Identität des Unternehmens widerspiegelt.",
+          "Optimierung der Website-Struktur für eine bessere Navigation und Benutzererfahrung.",
+          "Integration von Geschäftsemails zur Verbesserung der Kundenkommunikation."
+        ]
+      },
+      "info": "Link zur Live-Website:",
+      "github": "",
+      "live": "https://hm-service.pro/"
+    },
+    {
+      "name": "Havenova - PWA zur Verwaltung von Serviceanfragen und Benutzermanagement",
+      "shortDescription": "Eine Webplattform zur Verwaltung von Serviceanfragen, Reservierungen und Kundeninteraktionen für ein Dienstleistungsunternehmen im Bereich Haushaltshilfe. Enthält automatisierte E-Mail-Benachrichtigungen, ein dynamisches Dashboard und eine nahtlose Buchungserfahrung.",
+      "moreInfo": "Weitere Informationen",
+      "descriptionTitle": "Detaillierte Informationen",
+      "description": "Havenova ist eine webbasierte Plattform, die darauf ausgelegt ist, die Verwaltung von Serviceanfragen und Kundeninteraktionen für ein Unternehmen im Bereich Haushaltshilfe zu optimieren. Die Plattform ermöglicht es Nutzern, Serviceanfragen zu stellen, Bestätigungen zu erhalten und Termine einfach zu verwalten. Das Backend enthält ein robustes E-Mail-System, das mit SendGrid betrieben wird und automatische Benachrichtigungen für Verifizierungen, Passwortzurücksetzungen, Servicebestätigungen, Werbeaktionen und Blog-Updates sendet. Das Projekt befindet sich derzeit in Entwicklung, mit geplanten Erweiterungen für ein erweitertes Admin-Dashboard zur Serviceverwaltung und Kundenanalyse.",
+      "problemTitle": "Das Problem, das es löst",
+      "problem": "Viele kleine Dienstleistungsunternehmen haben Schwierigkeiten, Kundenanfragen, Serviceanfragen und Terminvereinbarungen effizient zu verwalten. Diese Plattform bietet ein strukturiertes System, um diese Prozesse effizient zu managen und gleichzeitig die Kundenkommunikation durch automatisierte E-Mails zu verbessern.",
+      "image": "/images/havenova.webp",
+      "myRol": {
+        "title": "Meine Rolle im Projekt",
+        "list": [
+          "Full-Stack-Entwicklung, einschließlich Frontend- und Backend-Architektur.",
+          "Integration automatisierter E-Mail-Benachrichtigungen mit SendGrid.",
+          "Implementierung eines Authentifizierungs- und Kontoverifizierungssystems.",
+          "Entwicklung eines Systems zur Serviceanfrage und Terminverwaltung.",
+          "Design und Optimierung einer strukturierten Datenbank für das Benutzer- und Servicemanagement.",
+          "Erstellung einer responsiven und benutzerfreundlichen Benutzeroberfläche für nahtlose Kundeninteraktionen."
+        ]
+      },
+      "technologies": {
+        "title": "Verwendete Technologien",
+        "list": [
+          "Next.js",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "SendGrid",
+          "Zoho Mail",
+          "Module CSS",
+          "Vercel",
+          "Figma"
+        ]
+      },
+      "challenges": {
+        "title": "Herausforderungen & Erkenntnisse",
+        "list": [
+          "Entwicklung eines skalierbaren Systems zur Verwaltung verschiedener Serviceanfragen und Interaktionen.",
+          "Implementierung eines sicheren Authentifizierungssystems mit E-Mail-Verifizierung.",
+          "Sicherstellung einer zuverlässigen E-Mail-Zustellung für transaktionale und Werbe-E-Mails.",
+          "Entwicklung eines flexiblen und modularen Backends zur Unterstützung zukünftiger Erweiterungen."
+        ]
+      },
+      "info": "Das Projekt befindet sich derzeit in der Entwicklung und wird mit neuen Funktionen aktualisiert.",
+      "github": "",
+      "live": ""
     }
-  ],
+  ]
+  ,
   "cta": {
     "message": "Sie brauchen Hilfe in Ihrem Team?",
     "message2": "Ich kann Ihnen helfen!",
-    "email": "herysantana@gmail.com",
+    "email": "contact@heribertosantana.com",
     "linkedin": "https://www.linkedin.com/in/heriberto-santana-solsona/"
   },
-  "education": {
+  "about": {
     "skills": "Fähigkeiten",
     "about": "Über mich.",
-    "aboutMessage": "Im Jahr 2023 beschloss ich, mich neuen beruflichen Herausforderungen zu stellen und neue Horizonte zu erkunden. Während eines Orientierungskurses bei DCI entdeckte ich die faszinierende Welt der Webentwicklung, die mich dazu inspirierte, eine Karriere als Full-Stack-Webentwickler einzuschlagen. Dieser Weg hat es mir ermöglicht, wieder kreativ zu sein und Probleme aus innovativen Perspektiven anzugehen. Im Verlauf des Kurses habe ich mein Wissen über die Erstellung von Webanwendungen erweitert und ein solides Verständnis ihrer technischen Anforderungen erworben. Außerdem wurde ich ausgewählt, Teil des DCI-Tutorenprogramms zu werden, wo ich die Gelegenheit hatte, meine Mitschüler bei ihren Studien und Projekten zu unterstützen. Diese Erfahrung ermöglichte es mir nicht nur, mit außergewöhnlichen Menschen zusammenzuarbeiten, sondern auch von ihnen zu lernen und meine zwischenmenschlichen Fähigkeiten zu verbessern. Für weitere Informationen über meinen Werdegang können Sie meinen Lebenslauf einsehen.",
+    "aboutMessage": "Im Jahr 2023 beschloss ich, mich neuen beruflichen Herausforderungen zu stellen und neue Horizonte zu erkunden. Während eines Orientierungskurses bei DCI entdeckte ich die faszinierende Welt der Webentwicklung, die mich dazu inspirierte, eine Karriere als Full-Stack-Webentwickler einzuschlagen. Dieser Weg hat es mir ermöglicht, wieder kreativ zu sein und Probleme aus innovativen Perspektiven anzugehen. Im Verlauf des Kurses habe ich mein Wissen über die Erstellung von Webanwendungen erweitert und ein solides Verständnis ihrer technischen Anforderungen erworben. Außerdem wurde ich ausgewählt, Teil des DCI-Tutorenprogramms zu werden, wo ich die Gelegenheit hatte, meine Mitschüler bei ihren Studien und Projekten zu unterstützen. Diese Erfahrung ermöglichte es mir nicht nur, mit außergewöhnlichen Menschen zusammenzuarbeiten, sondern auch von ihnen zu lernen und meine zwischenmenschlichen Fähigkeiten zu verbessern.",
     "cv": {
       "download": "Herunterladen",
       "show": "Offnen",
       "link": "./cv/Heriberto_Santana_Solsona_DE.pdf"
     }
   },
-  "recommendations": {
-    "recommendation1": {
-      "name": "Matteo Sette",
-      "title": "Lehrer bei DCI Digital Carrier Institute GmbH",
-      "recommendation": [
-        "Ich freue mich, Heriberto zu empfehlen, mit dem ich fast ein Jahr lang zusammengearbeitet habe. In dieser Zeit hat er stets außergewöhnliche Fähigkeiten, eine starke Arbeitsmoral und ein Engagement für persönliches und akademisches Wachstum gezeigt.",
-        "Eine der bemerkenswertesten Beiträge von Heriberto war, dass er die Rolle des Klassentutors übernommen hat. Er half nicht nur seinen Mitschülern bei ihren Aufgaben außerhalb des Unterrichts, sondern förderte auch eine kollaborative Lernumgebung. Seine Fähigkeit, komplexe Konzepte klar und effektiv zu vermitteln, motivierte seine Mitschüler, ihre Ziele zu erreichen, und verbesserte die Klassenerfahrung erheblich.",
-        "Heribertos Neugier und Engagement für das Lernen gehen weit über das Klassenzimmer hinaus. Er suchte aktiv nach zusätzlichen Ressourcen und Möglichkeiten, um sein Verständnis der Themen zu vertiefen. Sein Engagement für die Nachhilfesitzungen war ausgezeichnet, da er während der Woche flexible Zeiten anbot und sowohl morgens als auch nachmittags Termine arrangierte, um sicherzustellen, dass alle Schüler Unterstützung erhielten.",
-        "Der Einfluss, den Heriberto auf unsere Klasse und die breitere Lerngemeinschaft hatte, ist unbestreitbar. Sein Engagement und seine Führungsqualitäten haben nicht nur seinen Mitschülern geholfen, erfolgreich zu sein, sondern auch eine Kultur der Zusammenarbeit und gegenseitigen Unterstützung unter den Schülern inspiriert.",
-        "Ich empfehle Heriberto uneingeschränkt für alle zukünftigen Vorhaben. Er hat das Potenzial, weiterhin erfolgreich zu sein, und wird zweifellos überall, wo er hingeht, einen positiven Einfluss haben. Es war eine wahre Freude, mit ihm zusammenzuarbeiten, und ich kann ihn nicht genug empfehlen."
-      ]
+  "form": {
+    "message": {
+      "title": "Vielen Dank, dass Sie sich mit mir in Verbindung gesetzt haben.",
+      "description": "Ich werde so schnell wie möglich antworten.",
+      "message": "Nachricht erfolgreich gesendet"
     },
-    "recommendation2": {
-      "name": "Zakaria Hamdan",
-      "title": "Lehrer bei DCI",
-      "recommendation": []
-    }
-  },
+    "name": "Name",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "address": "Adresse",
+    "comment": "Nachricht",
+    "submit": "Senden"
+}
+,
   "footer": {
     "message": "Mit ❤️ aus Berlin"
   }

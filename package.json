@@ -10,11 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "@nextui-org/navbar": "^2.0.36",
     "@nextui-org/switch": "^2.0.33",
     "@nextui-org/system": "^2.2.5",
     "@nextui-org/theme": "^2.2.9",
-    "framer-motion": "^11.3.30",
+    "framer-motion": "^11.18.2",
     "i18next": "^23.12.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

@@ -17,9 +17,9 @@ export function LanguageSwitcher() {
      defaultValue={i18n.language}
      aria-label="Language"
      >
-      <option value="en">EN</option>
-      <option value="es">ES</option>
-      <option value="de">DE</option>
+      <option className={styles.option} value="en">English</option>
+      <option value="es">Español</option>
+      <option value="de">Deutsch</option>
     </select>
     </form>
   );
