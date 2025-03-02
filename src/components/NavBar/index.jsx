@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { useTranslation } from "react-i18next";
 import { LanguageSwitcher } from "../LanguageSwitcher";
 import { ThemeToggle } from "../ThemeToggle";
-import { IoMenu } from "react-icons/io5";
+import { CgMenuRight } from "react-icons/cg";
 import styles from "./NavBar.module.css";
 
 // eslint-disable-next-line react/prop-types
@@ -49,8 +49,12 @@ export function NavBar({ theme, toggleTheme }) {
   return (
     <nav className={`${styles.nav} ${isMobile ? styles.nav_mobile : ""}`}>
       <div className={styles.div}>
-        <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
-        <LanguageSwitcher />
+        <ThemeToggle
+          theme={theme}
+          toggleTheme={toggleTheme}
+          className={`${scrolled ? styles.scrolled : ""}`}
+        />
+        <LanguageSwitcher className={`${scrolled ? styles.scrolled : ""}`} />
       </div>
 
       <ul
@@ -62,8 +66,8 @@ export function NavBar({ theme, toggleTheme }) {
               ? styles.ul_open
               : ""
             : isMobile
-            ? styles.ul_close
-            : ""
+              ? styles.ul_close
+              : ""
         }`}
       >
         <li className={styles.li}>
@@ -114,15 +118,14 @@ export function NavBar({ theme, toggleTheme }) {
             {t("nav.contact")}
           </Link>
         </li>
-        
       </ul>
       {isMobile && (
         <Button
-          className={styles.button}
+          className={`${scrolled ? styles.scrolled : ""}`}
           onClick={toggleMenu}
           aria-label="Toggle navigation menu"
           aria-expanded={menuOpen}
-          label={<IoMenu />}
+          label={<CgMenuRight />}
         />
       )}
     </nav>

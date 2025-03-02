@@ -1,14 +1,14 @@
-import React from "react";
 import {Switch} from "@nextui-org/switch";
 import { ImSun } from "react-icons/im";
 import { BsMoon } from "react-icons/bs";
 import styles from './ThemeToggle.module.css'
 
-export function ThemeToggle({ toggleTheme }) {
+// eslint-disable-next-line react/prop-types
+export function ThemeToggle({ toggleTheme, className }) {
   return (
     <>
       <Switch
-      className={styles.switch}
+      className={`${styles.switch} ${className}`}
       defaultSelected
       onChange={toggleTheme}
       size="lg"

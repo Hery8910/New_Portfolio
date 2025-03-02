@@ -1,7 +1,9 @@
 .Button {
+  display: flex;
+  align-items: center;
   font-size: calc(14px + 0.4dvw);
   border-radius: 4px;
-  padding: 0.5rem;
+  padding: 0.4rem;
   color: inherit;
   cursor: pointer;
   background-color: transparent;

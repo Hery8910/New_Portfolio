@@ -1,8 +1,8 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import styles from './LanguageSwitcher.module.css'
 
-export function LanguageSwitcher() {
+// eslint-disable-next-line react/prop-types
+export function LanguageSwitcher({ className }) {
   const { i18n } = useTranslation();
   const changeLanguage = (event) => {
     const selectedLanguage = event.target.value;
@@ -12,7 +12,7 @@ export function LanguageSwitcher() {
   return (
     <form >
     <select 
-    className={styles.select}
+    className={`${styles.select} ${className}`}
      onChange={changeLanguage} 
      defaultValue={i18n.language}
      aria-label="Language"
@@ -23,4 +23,4 @@ export function LanguageSwitcher() {
     </select>
     </form>
   );
-};
+}
