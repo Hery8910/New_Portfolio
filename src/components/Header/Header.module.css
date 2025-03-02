@@ -43,7 +43,6 @@
 
   .img {
     width: 350px;
-
   }
 }
 @media screen and (max-width: 425px) {
@@ -55,8 +54,9 @@
 
   .img {
     position: absolute;
-    bottom: 2rem;
+    bottom: 0;
     width: 250px;
     z-index: -3;
+    opacity: .5;
   }
 }
