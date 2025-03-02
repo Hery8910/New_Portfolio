@@ -35,6 +35,7 @@ export function Projects() {
        onClick={()=> setOpen(false)}
        className={styles.close}
        label={<IoClose />}
+       ariaLabel={"Close button"}
        />}
       <section className={styles.card}>
         <img
@@ -67,6 +68,7 @@ export function Projects() {
                   onClick={() => {
                     setOpen(true);
                   }}
+                  aria-label="More info button"
                 >
                   {projects[currentIndex].moreInfo} <GrNext />
                 </button>
@@ -77,6 +79,7 @@ export function Projects() {
           onClick={() => {
             setOpen(true);
           }}
+          aria-label="More info button"
         >
           {projects[currentIndex].moreInfo} <GrNext />
         </button>}
@@ -87,11 +90,14 @@ export function Projects() {
           className={styles.navButton}
           onClick={handlePrev}
           label={<GrPrevious />}
+          ariaLabel={"Previous project"}
         />
         <Button
           className={styles.navButton}
           onClick={handleNext}
           label={<GrNext />}
+          ariaLabel={"Next project"}
+
         />
       </div>
       <ul className={styles.markers}>

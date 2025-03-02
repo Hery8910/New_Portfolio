@@ -123,7 +123,7 @@ export function NavBar({ theme, toggleTheme }) {
         <Button
           className={`${scrolled ? styles.scrolled : ""}`}
           onClick={toggleMenu}
-          aria-label={"Toggle navigation menu"}
+          ariaLabel={"Toggle navigation menu"}
           aria-expanded={menuOpen}
           label={<CgMenuRight />}
         />
