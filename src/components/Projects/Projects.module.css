@@ -140,6 +140,8 @@
 @media screen and (max-width: 768px) {
   .main {
     max-width: 80dvw;
+    margin-bottom: 0;
+
   }
   .card {
     flex-direction: column;
@@ -153,6 +155,7 @@
 @media screen and (max-width: 425px) {
   .main {
     max-width: 80dvw;
+    margin-bottom: 0;
   }
   .card {
     gap: 2rem;

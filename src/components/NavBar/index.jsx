@@ -7,6 +7,7 @@ import { ThemeToggle } from "../ThemeToggle";
 import { IoMenu } from "react-icons/io5";
 import styles from "./NavBar.module.css";
 
+// eslint-disable-next-line react/prop-types
 export function NavBar({ theme, toggleTheme }) {
   const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
